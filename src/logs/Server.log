@@ -615,3 +615,650 @@
 06-04 02:14 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":373}}
 06-04 02:14 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 373
 06-04 02:14 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:15 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 02:15 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 02:15 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 02:15 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 02:15 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:16 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":365}}
+06-04 02:16 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":324}}
+06-04 02:17 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:18 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":320}}
+06-04 02:18 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:19 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":321}}
+06-04 02:19 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":321}}
+06-04 02:20 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":341}}
+06-04 02:21 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:22 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":338}}
+06-04 02:22 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:23 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":339}}
+06-04 02:23 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:24 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:24 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":336}}
+06-04 02:24 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:25 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":323}}
+06-04 02:25 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":331}}
+06-04 02:26 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":326}}
+06-04 02:27 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:28 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":329}}
+06-04 02:28 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:29 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:29 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":336}}
+06-04 02:29 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:30 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":336}}
+06-04 02:30 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:31 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":329}}
+06-04 02:31 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:32 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:32 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:32 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":323}}
+06-04 02:32 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:33 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":343}}
+06-04 02:33 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:34 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":336}}
+06-04 02:34 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:35 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":326}}
+06-04 02:35 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:36 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:36 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":330}}
+06-04 02:36 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:37 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:37 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:37 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":338}}
+06-04 02:37 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:38 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":338}}
+06-04 02:38 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":347}}
+06-04 02:39 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:40 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":342}}
+06-04 02:40 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:41 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:41 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":324}}
+06-04 02:41 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:41 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:41 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:42 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":336}}
+06-04 02:42 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":327}}
+06-04 02:43 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:44 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:44 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:44 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":330}}
+06-04 02:44 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":336}}
+06-04 02:45 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:46 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:46 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":353}}
+06-04 02:46 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:46 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:46 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:47 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:47 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":364}}
+06-04 02:47 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:48 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:48 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:48 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":333}}
+06-04 02:48 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:49 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":336}}
+06-04 02:49 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:50 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":322}}
+06-04 02:50 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:51 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":326}}
+06-04 02:51 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:51 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:52 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:52 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":353}}
+06-04 02:52 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:53 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":323}}
+06-04 02:53 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:54 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":330}}
+06-04 02:54 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:55 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":334}}
+06-04 02:55 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:56 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":333}}
+06-04 02:56 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:56 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:57 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":349}}
+06-04 02:57 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:58 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":378}}
+06-04 02:58 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 02:59 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":306}}
+06-04 02:59 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:00 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":449}}
+06-04 03:00 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":304}}
+06-04 03:01 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:02 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":304}}
+06-04 03:02 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:03 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":336}}
+06-04 03:03 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:04 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":231}}
+06-04 03:04 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:05 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":229}}
+06-04 03:05 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:06 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":241}}
+06-04 03:06 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:07 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:07 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:07 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:07 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:07 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":218}}
+06-04 03:07 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:08 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":263}}
+06-04 03:08 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:09 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":270}}
+06-04 03:09 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:10 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":218}}
+06-04 03:10 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:10 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:11 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":247}}
+06-04 03:11 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":272}}
+06-04 03:12 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:13 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":253}}
+06-04 03:13 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:14 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:14 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:14 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":269}}
+06-04 03:14 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:15 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":239}}
+06-04 03:15 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:16 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":234}}
+06-04 03:16 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":243}}
+06-04 03:17 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:18 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":256}}
+06-04 03:18 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:19 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":272}}
+06-04 03:19 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":281}}
+06-04 03:20 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":281}}
+06-04 03:21 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:22 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":241}}
+06-04 03:22 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:23 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":258}}
+06-04 03:23 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:24 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":272}}
+06-04 03:24 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:25 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":274}}
+06-04 03:25 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":256}}
+06-04 03:26 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":276}}
+06-04 03:27 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:28 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":275}}
+06-04 03:28 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:29 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:29 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:29 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":275}}
+06-04 03:29 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:30 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":278}}
+06-04 03:30 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:31 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":249}}
+06-04 03:31 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":289}}
+06-04 03:32 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:33 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":227}}
+06-04 03:33 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:34 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":247}}
+06-04 03:34 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:35 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":228}}
+06-04 03:35 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:36 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:36 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":217}}
+06-04 03:36 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:37 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":229}}
+06-04 03:37 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:38 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":251}}
+06-04 03:38 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":266}}
+06-04 03:39 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:40 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:40 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":258}}
+06-04 03:40 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:41 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":259}}
+06-04 03:41 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:42 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":260}}
+06-04 03:42 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":221}}
+06-04 03:43 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:44 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":235}}
+06-04 03:44 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":229}}
+06-04 03:45 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:46 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":259}}
+06-04 03:46 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:47 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:47 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":236}}
+06-04 03:47 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:47 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:48 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:48 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:48 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":226}}
+06-04 03:48 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:48 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:49 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:49 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":214}}
+06-04 03:49 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:50 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":222}}
+06-04 03:50 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:51 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":240}}
+06-04 03:51 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:52 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:52 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:52 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:52 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":221}}
+06-04 03:52 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:53 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:53 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":224}}
+06-04 03:53 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:54 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:54 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:54 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:54 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":215}}
+06-04 03:54 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:55 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":260}}
+06-04 03:55 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:56 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":247}}
+06-04 03:56 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:57 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":261}}
+06-04 03:57 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:58 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 03:58 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":258}}
+06-04 03:58 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 03:59 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":228}}
+06-04 03:59 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:00 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:00 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:00 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":231}}
+06-04 04:00 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:01 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":226}}
+06-04 04:01 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:02 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":222}}
+06-04 04:02 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:03 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":239}}
+06-04 04:03 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:04 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":218}}
+06-04 04:04 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:05 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":249}}
+06-04 04:05 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:06 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":217}}
+06-04 04:06 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:07 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":226}}
+06-04 04:07 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:08 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":259}}
+06-04 04:08 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:09 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":251}}
+06-04 04:09 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:10 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":271}}
+06-04 04:10 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:11 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":242}}
+06-04 04:11 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":217}}
+06-04 04:12 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:13 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":238}}
+06-04 04:13 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:14 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":230}}
+06-04 04:14 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:15 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:15 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":244}}
+06-04 04:15 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:16 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:16 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:16 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:16 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":225}}
+06-04 04:16 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":265}}
+06-04 04:17 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:18 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:18 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:19 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":264}}
+06-04 04:19 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:19 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:19 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":249}}
+06-04 04:20 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":227}}
+06-04 04:21 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:22 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":265}}
+06-04 04:22 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:23 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":267}}
+06-04 04:23 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:24 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":226}}
+06-04 04:24 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:25 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":243}}
+06-04 04:25 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":250}}
+06-04 04:26 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":234}}
+06-04 04:27 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:28 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":264}}
+06-04 04:28 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:29 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":243}}
+06-04 04:29 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:29 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:29 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:30 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":214}}
+06-04 04:30 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:30 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:30 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:31 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":234}}
+06-04 04:31 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":240}}
+06-04 04:32 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:33 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":252}}
+06-04 04:33 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:33 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:34 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":254}}
+06-04 04:34 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:35 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":263}}
+06-04 04:35 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:36 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":223}}
+06-04 04:36 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:36 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:36 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:36 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:37 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":224}}
+06-04 04:37 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:37 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:37 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:38 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":221}}
+06-04 04:38 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":224}}
+06-04 04:39 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:40 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":239}}
+06-04 04:40 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:41 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":272}}
+06-04 04:41 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:41 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:41 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:41 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:42 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":221}}
+06-04 04:42 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":254}}
+06-04 04:43 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:44 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":233}}
+06-04 04:44 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:44 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:44 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:44 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":245}}
+06-04 04:45 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:46 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":240}}
+06-04 04:46 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:47 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":229}}
+06-04 04:47 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:48 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":262}}
+06-04 04:48 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:49 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":273}}
+06-04 04:49 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:50 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":241}}
+06-04 04:50 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:51 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":217}}
+06-04 04:51 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:52 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":265}}
+06-04 04:52 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:53 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":246}}
+06-04 04:53 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:53 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:54 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":270}}
+06-04 04:54 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:54 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 04:55 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":236}}
+06-04 04:55 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:56 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":249}}
+06-04 04:56 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:57 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":240}}
+06-04 04:57 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:58 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":266}}
+06-04 04:58 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:59 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":243}}
+06-04 04:59 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 04:59 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:00 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":253}}
+06-04 05:00 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":272}}
+06-04 05:01 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:02 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":261}}
+06-04 05:02 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:03 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":227}}
+06-04 05:03 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:04 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:04 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":285}}
+06-04 05:04 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:05 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:05 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":270}}
+06-04 05:05 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:06 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":240}}
+06-04 05:06 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:07 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:07 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":267}}
+06-04 05:07 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:07 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:08 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":234}}
+06-04 05:08 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:08 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:09 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":272}}
+06-04 05:09 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:10 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":229}}
+06-04 05:10 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:10 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:11 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":263}}
+06-04 05:11 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:11 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:11 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":250}}
+06-04 05:12 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:13 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":255}}
+06-04 05:13 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:13 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:14 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":237}}
+06-04 05:14 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:14 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:14 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:15 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":224}}
+06-04 05:15 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:16 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":272}}
+06-04 05:16 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":252}}
+06-04 05:17 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:17 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:18 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:18 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":247}}
+06-04 05:18 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:18 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:18 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:19 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:19 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":214}}
+06-04 05:19 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:20 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 05:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":215}}
+06-04 05:20 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":265}}
+06-04 05:21 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:22 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":230}}
+06-04 05:22 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:23 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":214}}
+06-04 05:23 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:24 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":219}}
+06-04 05:24 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:25 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":260}}
+06-04 05:25 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":259}}
+06-04 05:26 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":253}}
+06-04 05:27 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:28 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":246}}
+06-04 05:28 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:29 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":263}}
+06-04 05:29 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:30 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":238}}
+06-04 05:30 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:31 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":242}}
+06-04 05:31 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":256}}
+06-04 05:32 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:33 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":247}}
+06-04 05:33 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:34 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":244}}
+06-04 05:34 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:35 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":262}}
+06-04 05:35 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:36 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":245}}
+06-04 05:36 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:37 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":267}}
+06-04 05:37 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:38 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":260}}
+06-04 05:38 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":260}}
+06-04 05:39 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:40 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":269}}
+06-04 05:40 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:41 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":261}}
+06-04 05:41 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:42 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":269}}
+06-04 05:42 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":259}}
+06-04 05:43 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:44 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":269}}
+06-04 05:44 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":243}}
+06-04 05:45 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:46 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":256}}
+06-04 05:46 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:47 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":261}}
+06-04 05:47 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:48 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":269}}
+06-04 05:48 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:49 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":263}}
+06-04 05:49 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:50 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":260}}
+06-04 05:50 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:51 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":258}}
+06-04 05:51 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:52 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":256}}
+06-04 05:52 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:53 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":237}}
+06-04 05:53 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:54 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":256}}
+06-04 05:54 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:55 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":240}}
+06-04 05:55 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:56 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":251}}
+06-04 05:56 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:57 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":259}}
+06-04 05:57 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:58 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":263}}
+06-04 05:58 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 05:59 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":250}}
+06-04 05:59 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:00 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":254}}
+06-04 06:00 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":245}}
+06-04 06:01 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:02 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":251}}
+06-04 06:02 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:03 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":237}}
+06-04 06:03 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:04 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":333}}
+06-04 06:04 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:05 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":368}}
+06-04 06:05 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:06 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":352}}
+06-04 06:06 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:06 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 06:07 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":325}}
+06-04 06:07 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:08 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":335}}
+06-04 06:08 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:09 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":315}}
+06-04 06:09 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:10 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":311}}
+06-04 06:10 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:11 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":323}}
+06-04 06:11 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":317}}
+06-04 06:12 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:13 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 06:13 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":322}}
+06-04 06:13 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:13 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 06:14 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":327}}
+06-04 06:14 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:15 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 06:15 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":318}}
+06-04 06:15 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:16 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 06:16 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":321}}
+06-04 06:16 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":346}}
+06-04 06:17 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:18 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 06:18 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":325}}
+06-04 06:18 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:19 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":332}}
+06-04 06:19 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":322}}
+06-04 06:20 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-04 06:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":314}}
+06-04 06:21 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
