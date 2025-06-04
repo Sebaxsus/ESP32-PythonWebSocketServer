@@ -33,11 +33,10 @@ async def handle_client(websocket: websockets.ServerConnection):
     #     await websocket.close()
     #     return
     
-    logger.info(f"🟢 Cliente conectado path: {path} clint_Ip: {cliet_ip}")
-    print(f"Subprotocolo aceptado: {websocket.subprotocol}")
+    logger.info(f"🟢 Cliente conectado path: {path} clint_Ip: {cliet_ip} Subprotocolo aceptado: {websocket.subprotocol}")
     req = websocket.request
     origin = req.headers["Origin"]
-    print(req.serialize() ,"\n\n", origin)
+    # print(req.serialize() ,"\n\n", origin)
     connected_clients.add((websocket, (cliet_ip, origin)))
 
     if path == "/dashboard":
@@ -68,7 +67,7 @@ async def handle_client(websocket: websockets.ServerConnection):
 
                     front = get_client_by_ip("127.0.0.1", "http://localhost:4321")
                     if front:
-                        logger.info(f"Comunicandose con el Front")
+                        logger.info(f"📡 Comunicandose con el Front")
                         await front.send(json.dumps({
                             "event": "sensor_data",
                             "data": json.dumps({"timestamp": local_timestamp, "valor": valor})

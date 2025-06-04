@@ -606,3 +606,12 @@
 06-04 02:11 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":378}}
 06-04 02:11 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 378
 06-04 02:11 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":368}}
+06-04 02:12 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 368
+06-04 02:12 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:13 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":366}}
+06-04 02:13 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 366
+06-04 02:13 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:14 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":373}}
+06-04 02:14 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 373
+06-04 02:14 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
