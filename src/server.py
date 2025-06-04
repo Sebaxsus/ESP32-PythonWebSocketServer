@@ -1,4 +1,4 @@
-import flask, pathlib
+import flask, pathlib, json
 from flask_sock import Sock
 from Logger import Server_Logger
 
@@ -27,8 +27,11 @@ def hello_Json():
 @socket.route("/ws")
 def websocket_route(ws):
     while True:
-        data = ws.receive()
-        print("Dato recibido del ESP32:", data)
+        raw = ws.receive()
+        event, data = json.load(raw)
+        if event == "sensor_data":
+            print("Dato recibido del ESP32:", data)
+        print(f"No entro a event: {event}, data: {data}")
         ws.send("ACK")
 
 # @socket.on('connect')
