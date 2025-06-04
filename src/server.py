@@ -1,6 +1,7 @@
-import pathlib, json, asyncio, websockets
+import pathlib, json, asyncio, websockets, datetime
 
 from Logger import Server_Logger
+from db import Data_Base
 
 # Doc https://flask.palletsprojects.com/en/latest/quickstart/
 
@@ -14,38 +15,81 @@ connected_clients = set()
     
 data = []
 
+def get_client_by_ip(ip, origin):
+    for ws, clientData in connected_clients:
+        if clientData[0] == ip and clientData[1] == origin:
+            return ws
+    
+    return None
+
+def get_data_from_db():
+    return [{"timestamp": row[0], "valor": row[1]} for row in Data_Base().select_data().fetchall()]
+
 async def handle_client(websocket: websockets.ServerConnection):
     path = websocket.request.path
+    cliet_ip = websocket.remote_address[0]
     # if path != "/server" or path != "/page":
     #     logger.warning(f"❌ Path no permitido: {path}")
     #     await websocket.close()
     #     return
     
-    logger.info(f"🟢 Cliente conectado path: {path} clint_Ip: {websocket.remote_address[0]}")
-    connected_clients.add(websocket)
+    logger.info(f"🟢 Cliente conectado path: {path} clint_Ip: {cliet_ip}")
     print(f"Subprotocolo aceptado: {websocket.subprotocol}")
-    data = websocket.request.serialize()
-    print(data)
+    req = websocket.request
+    origin = req.headers["Origin"]
+    print(req.serialize() ,"\n\n", origin)
+    connected_clients.add((websocket, (cliet_ip, origin)))
+
+    if path == "/dashboard":
+        data = get_data_from_db()
+        # print(f"Datos db: {data}")
+        await websocket.send(json.dumps({
+            "event": "historico",
+            "data": data
+        }))
+
+
     try:
         async for message in websocket:
             logger.info(f"📩 Mensaje recibido: {message}")
+
             try:
                 data = json.loads(message)
+
                 if data.get("event") == "sensor_data":
+
                     valor = data["data"]["valor"]
-                    logger.info(f"📈 Valor del sensor: {valor}")
+                    # logger.info(f"📈 Valor del sensor: {valor}")
+                    local_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+                    Data_Base().insert_data(valor, local_timestamp)
+
                     await websocket.send(json.dumps({"status": "ok", "mensaje": "Dato recibido"}))
+
+                    front = get_client_by_ip("127.0.0.1", "http://localhost:4321")
+                    if front:
+                        logger.info(f"Comunicandose con el Front")
+                        await front.send(json.dumps({
+                            "event": "sensor_data",
+                            "data": json.dumps({"timestamp": local_timestamp, "valor": valor})
+                        }))
+
                 else:
                     await websocket.send(json.dumps({"status": "error", "mensaje": "Evento desconocido"}))
+
             except json.JSONDecodeError:
                 await websocket.send(json.dumps({"status": "error", "mensaje": "JSON inválido"}))
+                
     except websockets.ConnectionClosed:
         logger.info("🔌 Cliente desconectado")
+
     finally:
-        connected_clients.remove(websocket)
+        connected_clients.remove((websocket, (websocket.remote_address[0], websocket.request.headers["Origin"])))
 
 async def start_server():
+
     logger.info("🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000")
+
     async with websockets.serve(handle_client, "0.0.0.0", 5000, subprotocols=["None","arduino"], ping_timeout=60):
         await asyncio.Future()  # Mantener servidor activo
 

@@ -1,0 +1,608 @@
+06-04 10:48 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 10:48 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 10:48 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 10:48 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 10:49 AM - Logger - Type: [INFO] - Msg: 🔌 Cliente desconectado
+06-04 10:49 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 10:49 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 10:50 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":529}}
+06-04 10:50 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 529
+06-04 10:51 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":503}}
+06-04 10:51 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 503
+06-04 10:52 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":490}}
+06-04 10:52 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 490
+06-04 10:53 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":486}}
+06-04 10:53 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 486
+06-04 10:54 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":499}}
+06-04 10:54 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 499
+06-04 10:55 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":473}}
+06-04 10:55 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 473
+06-04 10:56 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":509}}
+06-04 10:56 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 509
+06-04 11:08 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 11:08 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 11:08 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 11:08 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 11:08 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":688}}
+06-04 11:08 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 688
+06-04 11:09 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1
+06-04 11:09 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":581}}
+06-04 11:09 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 581
+06-04 11:10 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:10 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":598}}
+06-04 11:10 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 598
+06-04 11:10 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 11:10 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 11:10 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 11:10 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 11:10 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:11 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 11:11 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 11:11 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 11:11 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 11:11 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:11 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":594}}
+06-04 11:11 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 594
+06-04 11:12 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 11:12 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 11:12 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 11:12 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 11:12 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":601}}
+06-04 11:12 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 601
+06-04 11:12 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:12 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:13 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":565}}
+06-04 11:13 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 565
+06-04 11:14 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:14 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":717}}
+06-04 11:14 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 717
+06-04 11:14 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 11:14 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 11:15 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 11:15 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 11:15 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 11:15 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 11:15 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:15 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":643}}
+06-04 11:15 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 643
+06-04 11:15 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 11:15 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 11:16 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:16 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":534}}
+06-04 11:16 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 534
+06-04 11:16 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 11:16 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 11:16 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 11:16 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 11:16 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:17 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":534}}
+06-04 11:17 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 534
+06-04 11:17 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:18 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":495}}
+06-04 11:18 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 495
+06-04 11:19 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":526}}
+06-04 11:19 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 526
+06-04 11:20 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":554}}
+06-04 11:20 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 554
+06-04 11:21 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":547}}
+06-04 11:21 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 547
+06-04 11:22 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":669}}
+06-04 11:22 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 669
+06-04 11:23 AM - Logger - Type: [INFO] - Msg: 🔌 Cliente desconectado
+06-04 11:23 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 11:23 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 11:24 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":431}}
+06-04 11:24 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 431
+06-04 11:25 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":383}}
+06-04 11:25 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 383
+06-04 11:26 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":360}}
+06-04 11:26 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 360
+06-04 11:27 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":336}}
+06-04 11:27 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 336
+06-04 11:28 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":304}}
+06-04 11:28 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 304
+06-04 11:29 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":320}}
+06-04 11:29 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 320
+06-04 11:30 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":322}}
+06-04 11:30 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 322
+06-04 11:30 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 11:30 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 11:30 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 11:30 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 11:31 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":327}}
+06-04 11:31 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 327
+06-04 11:32 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":305}}
+06-04 11:32 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 305
+06-04 11:33 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":289}}
+06-04 11:33 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 289
+06-04 11:34 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":295}}
+06-04 11:34 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 295
+06-04 11:35 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":304}}
+06-04 11:35 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 304
+06-04 11:36 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":288}}
+06-04 11:36 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 288
+06-04 11:37 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":293}}
+06-04 11:37 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 293
+06-04 11:38 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":291}}
+06-04 11:38 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 291
+06-04 11:39 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":271}}
+06-04 11:39 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 271
+06-04 11:40 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":273}}
+06-04 11:40 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 273
+06-04 11:41 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":275}}
+06-04 11:41 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 275
+06-04 11:42 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":300}}
+06-04 11:42 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 300
+06-04 11:43 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":306}}
+06-04 11:43 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 306
+06-04 11:44 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":306}}
+06-04 11:44 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 306
+06-04 11:45 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:45 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:45 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":277}}
+06-04 11:45 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 277
+06-04 11:46 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 11:46 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 11:46 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 11:46 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 11:47 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":272}}
+06-04 11:47 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 272
+06-04 11:48 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":274}}
+06-04 11:48 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 274
+06-04 11:49 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":261}}
+06-04 11:49 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 261
+06-04 11:50 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":258}}
+06-04 11:50 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 258
+06-04 11:51 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":240}}
+06-04 11:51 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 240
+06-04 11:52 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":265}}
+06-04 11:52 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 265
+06-04 11:53 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":247}}
+06-04 11:53 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 247
+06-04 11:54 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":208}}
+06-04 11:54 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 208
+06-04 11:55 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":249}}
+06-04 11:55 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 249
+06-04 11:56 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":240}}
+06-04 11:56 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 240
+06-04 11:56 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:57 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":301}}
+06-04 11:57 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 301
+06-04 11:57 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:58 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":256}}
+06-04 11:58 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 256
+06-04 11:59 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 11:59 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":282}}
+06-04 11:59 AM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 282
+06-04 12:00 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":282}}
+06-04 12:00 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 282
+06-04 12:01 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":267}}
+06-04 12:01 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 267
+06-04 12:02 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":283}}
+06-04 12:02 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 283
+06-04 12:03 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":280}}
+06-04 12:03 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 280
+06-04 12:04 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":285}}
+06-04 12:04 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 285
+06-04 12:04 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:05 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":294}}
+06-04 12:05 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 294
+06-04 12:06 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":277}}
+06-04 12:06 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 277
+06-04 12:07 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":282}}
+06-04 12:07 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 282
+06-04 12:08 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:08 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":270}}
+06-04 12:08 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 270
+06-04 12:09 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":272}}
+06-04 12:09 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 272
+06-04 12:10 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":283}}
+06-04 12:10 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 283
+06-04 12:11 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":272}}
+06-04 12:11 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 272
+06-04 12:11 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":288}}
+06-04 12:12 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 288
+06-04 12:13 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":289}}
+06-04 12:13 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 289
+06-04 12:13 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:14 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":284}}
+06-04 12:14 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 284
+06-04 12:14 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:15 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":300}}
+06-04 12:15 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 300
+06-04 12:16 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":297}}
+06-04 12:16 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 297
+06-04 12:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":298}}
+06-04 12:17 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 298
+06-04 12:17 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:18 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":299}}
+06-04 12:18 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 299
+06-04 12:19 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":283}}
+06-04 12:19 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 283
+06-04 12:19 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":301}}
+06-04 12:20 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 301
+06-04 12:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":291}}
+06-04 12:21 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 291
+06-04 12:22 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":293}}
+06-04 12:22 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 293
+06-04 12:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:23 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:23 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":283}}
+06-04 12:23 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 283
+06-04 12:23 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:24 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:24 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":291}}
+06-04 12:24 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 291
+06-04 12:25 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":304}}
+06-04 12:25 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 304
+06-04 12:25 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:25 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:25 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:25 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":298}}
+06-04 12:26 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 298
+06-04 12:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":292}}
+06-04 12:27 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 292
+06-04 12:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:28 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":289}}
+06-04 12:28 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 289
+06-04 12:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:29 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":281}}
+06-04 12:29 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 281
+06-04 12:29 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:29 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:30 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:30 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:30 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:30 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":290}}
+06-04 12:30 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 290
+06-04 12:30 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:31 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":303}}
+06-04 12:31 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 303
+06-04 12:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":287}}
+06-04 12:32 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 287
+06-04 12:32 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:33 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":300}}
+06-04 12:33 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 300
+06-04 12:34 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":304}}
+06-04 12:34 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 304
+06-04 12:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:35 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":292}}
+06-04 12:35 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 292
+06-04 12:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:36 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":298}}
+06-04 12:36 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 298
+06-04 12:37 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":302}}
+06-04 12:37 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 302
+06-04 12:37 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1
+06-04 12:37 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 400}}
+06-04 12:37 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 400
+06-04 12:37 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":282}}
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 282
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 400}}
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 400
+06-04 12:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":285}}
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 285
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 400}}
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 400
+06-04 12:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:40 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":306}}
+06-04 12:40 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 306
+06-04 12:40 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 12:40 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 12:41 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":304}}
+06-04 12:41 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 304
+06-04 12:41 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 12:41 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 12:42 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":286}}
+06-04 12:42 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 286
+06-04 12:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 12:42 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 12:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":315}}
+06-04 12:43 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 315
+06-04 12:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 12:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":292}}
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 292
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 400}}
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 400
+06-04 12:44 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":298}}
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 298
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 400}}
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 400
+06-04 12:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:46 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":298}}
+06-04 12:46 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 298
+06-04 12:46 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 12:47 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":289}}
+06-04 12:47 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 289
+06-04 12:48 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":291}}
+06-04 12:48 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 291
+06-04 12:49 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":303}}
+06-04 12:49 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 303
+06-04 12:50 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":293}}
+06-04 12:50 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 293
+06-04 12:51 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":305}}
+06-04 12:51 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 305
+06-04 12:52 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":290}}
+06-04 12:52 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 290
+06-04 12:53 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":293}}
+06-04 12:53 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 293
+06-04 12:54 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":288}}
+06-04 12:54 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 288
+06-04 12:55 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":295}}
+06-04 12:55 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 295
+06-04 12:56 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":299}}
+06-04 12:56 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 299
+06-04 12:57 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":304}}
+06-04 12:57 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 304
+06-04 12:58 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":302}}
+06-04 12:58 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 302
+06-04 12:59 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":285}}
+06-04 12:59 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 285
+06-04 01:00 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":285}}
+06-04 01:00 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 285
+06-04 01:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":277}}
+06-04 01:01 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 277
+06-04 01:02 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":275}}
+06-04 01:02 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 275
+06-04 01:03 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":296}}
+06-04 01:03 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 296
+06-04 01:04 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":291}}
+06-04 01:04 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 291
+06-04 01:05 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":287}}
+06-04 01:05 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 287
+06-04 01:06 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":305}}
+06-04 01:06 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 305
+06-04 01:06 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 01:06 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 01:07 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 01:07 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 01:07 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:07 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":302}}
+06-04 01:07 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 302
+06-04 01:08 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":295}}
+06-04 01:08 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 295
+06-04 01:09 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":304}}
+06-04 01:09 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 304
+06-04 01:10 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":303}}
+06-04 01:10 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 303
+06-04 01:11 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":289}}
+06-04 01:11 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 289
+06-04 01:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":274}}
+06-04 01:12 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 274
+06-04 01:12 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 01:12 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 01:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 01:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 01:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:13 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":298}}
+06-04 01:13 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 298
+06-04 01:14 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":304}}
+06-04 01:14 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 304
+06-04 01:15 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":295}}
+06-04 01:15 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 295
+06-04 01:16 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:16 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":313}}
+06-04 01:16 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 313
+06-04 01:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":305}}
+06-04 01:17 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 305
+06-04 01:18 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":300}}
+06-04 01:18 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 300
+06-04 01:19 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":294}}
+06-04 01:19 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 294
+06-04 01:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":279}}
+06-04 01:20 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 279
+06-04 01:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":417}}
+06-04 01:21 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 417
+06-04 01:22 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":378}}
+06-04 01:22 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 378
+06-04 01:23 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":375}}
+06-04 01:23 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 375
+06-04 01:24 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":369}}
+06-04 01:24 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 369
+06-04 01:25 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":364}}
+06-04 01:25 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 364
+06-04 01:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":365}}
+06-04 01:26 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 365
+06-04 01:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":339}}
+06-04 01:27 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 339
+06-04 01:28 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":335}}
+06-04 01:28 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 335
+06-04 01:29 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":342}}
+06-04 01:29 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 342
+06-04 01:30 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":339}}
+06-04 01:30 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 339
+06-04 01:31 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":318}}
+06-04 01:31 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 318
+06-04 01:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":327}}
+06-04 01:32 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 327
+06-04 01:33 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":368}}
+06-04 01:33 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 368
+06-04 01:34 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":343}}
+06-04 01:34 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 343
+06-04 01:35 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":339}}
+06-04 01:35 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 339
+06-04 01:36 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":349}}
+06-04 01:36 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 349
+06-04 01:37 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":363}}
+06-04 01:37 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 363
+06-04 01:37 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:37 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:38 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":355}}
+06-04 01:38 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 355
+06-04 01:38 PM - Logger - Type: [INFO] - Msg: 🔌 Cliente desconectado
+06-04 01:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 01:38 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 01:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":347}}
+06-04 01:39 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 347
+06-04 01:39 PM - Logger - Type: [INFO] - Msg: 🔌 Cliente desconectado
+06-04 01:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 01:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 01:40 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:40 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":357}}
+06-04 01:40 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 357
+06-04 01:40 PM - Logger - Type: [INFO] - Msg: 🔌 Cliente desconectado
+06-04 01:40 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 01:40 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 01:41 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 01:41 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 01:41 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 01:41 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 01:41 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:41 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:41 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":363}}
+06-04 01:41 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 363
+06-04 01:41 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:41 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:42 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":353}}
+06-04 01:42 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 353
+06-04 01:42 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":331}}
+06-04 01:43 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 331
+06-04 01:43 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 01:44 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":339}}
+06-04 01:44 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 339
+06-04 01:44 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":365}}
+06-04 01:45 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 365
+06-04 01:45 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:46 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":366}}
+06-04 01:46 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 366
+06-04 01:46 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:47 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":366}}
+06-04 01:47 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 366
+06-04 01:47 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:48 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":358}}
+06-04 01:48 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 358
+06-04 01:48 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:49 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":371}}
+06-04 01:49 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 371
+06-04 01:49 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:50 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":377}}
+06-04 01:50 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 377
+06-04 01:50 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:51 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":383}}
+06-04 01:51 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 383
+06-04 01:51 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:52 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":368}}
+06-04 01:52 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 368
+06-04 01:52 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:53 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":368}}
+06-04 01:53 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 368
+06-04 01:53 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:54 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":384}}
+06-04 01:54 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 384
+06-04 01:54 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:55 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":371}}
+06-04 01:55 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 371
+06-04 01:55 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:56 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":368}}
+06-04 01:56 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 368
+06-04 01:56 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:57 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":364}}
+06-04 01:57 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 364
+06-04 01:57 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:58 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":388}}
+06-04 01:58 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 388
+06-04 01:58 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 01:59 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":382}}
+06-04 01:59 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 382
+06-04 01:59 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:00 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":368}}
+06-04 02:00 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 368
+06-04 02:00 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":373}}
+06-04 02:01 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 373
+06-04 02:01 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:02 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":371}}
+06-04 02:02 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 371
+06-04 02:02 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:03 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":378}}
+06-04 02:03 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 378
+06-04 02:03 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:04 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":367}}
+06-04 02:04 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 367
+06-04 02:04 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:04 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-04 02:04 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-04 02:04 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /sensor clint_Ip: 192.168.20.122
+06-04 02:04 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: ESP32 conectado!
+06-04 02:05 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:05 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:05 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":365}}
+06-04 02:05 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 365
+06-04 02:05 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:06 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:06 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:06 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":379}}
+06-04 02:06 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 379
+06-04 02:07 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:07 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":379}}
+06-04 02:07 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 379
+06-04 02:07 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:08 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":368}}
+06-04 02:08 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 368
+06-04 02:08 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:08 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:09 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":382}}
+06-04 02:09 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 382
+06-04 02:09 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:10 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1
+06-04 02:10 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":368}}
+06-04 02:10 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 368
+06-04 02:10 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
+06-04 02:11 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":378}}
+06-04 02:11 PM - Logger - Type: [INFO] - Msg: 📈 Valor del sensor: 378
+06-04 02:11 PM - Logger - Type: [INFO] - Msg: Comunicandose con el Front
