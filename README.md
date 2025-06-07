@@ -27,14 +27,14 @@
 
 ## Tabla de contenidos
 
-1. Descripción General.
-2. Observaciones.
-3. Tabla de contenidos.
-4. Instalación.
-5. Configuración.
-6. Diagramas.
-7. Autor.
-8. Licencia.
+1. [Descripción General.](#descipción)
+2. [Observaciones.](#observaciones)
+3. [Tabla de contenidos.](#tabla-de-contenidos)
+4. [Instalación.](#instalación)
+5. [Configuración.](#configuracion)
+6. [Diagramas.](#diagramas)
+7. [Autor.](#autor)
+8. [Licencia.](#licencia)
 
 ## Instalación.
 
