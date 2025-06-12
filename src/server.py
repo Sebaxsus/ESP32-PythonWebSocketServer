@@ -23,7 +23,7 @@ def get_client_by_ip(ip, origin):
     return None
 
 def get_data_from_db():
-    return [{"timestamp": row[0], "valor": row[1]} for row in Data_Base().select_data().fetchall()]
+    return [{"timestamp": row[0], "valor": row[1]} for row in Data_Base(logger).select_data()]
 
 async def handle_client(websocket: websockets.ServerConnection):
     path = websocket.request.path
@@ -61,7 +61,7 @@ async def handle_client(websocket: websockets.ServerConnection):
                     # logger.info(f"📈 Valor del sensor: {valor}")
                     local_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-                    Data_Base().insert_data(valor, local_timestamp)
+                    Data_Base(logger).insert_data(valor, local_timestamp)
 
                     await websocket.send(json.dumps({"status": "ok", "mensaje": "Dato recibido"}))
 
@@ -83,7 +83,7 @@ async def handle_client(websocket: websockets.ServerConnection):
         logger.info("🔌 Cliente desconectado")
 
     finally:
-        connected_clients.remove((websocket, (websocket.remote_address[0], websocket.request.headers.get("Origin"))))
+        connected_clients.remove((websocket, (websocket.remote_address[0], websocket.request.headers.get("Origin"))))     
 
 async def start_server():
 
