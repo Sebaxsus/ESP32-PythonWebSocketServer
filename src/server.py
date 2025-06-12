@@ -35,7 +35,7 @@ async def handle_client(websocket: websockets.ServerConnection):
     
     logger.info(f"🟢 Cliente conectado path: {path} clint_Ip: {cliet_ip} Subprotocolo aceptado: {websocket.subprotocol}")
     req = websocket.request
-    origin = req.headers["Origin"]
+    origin = req.headers.get("Origin")
     # print(req.serialize() ,"\n\n", origin)
     connected_clients.add((websocket, (cliet_ip, origin)))
 
@@ -83,7 +83,7 @@ async def handle_client(websocket: websockets.ServerConnection):
         logger.info("🔌 Cliente desconectado")
 
     finally:
-        connected_clients.remove((websocket, (websocket.remote_address[0], websocket.request.headers["Origin"])))
+        connected_clients.remove((websocket, (websocket.remote_address[0], websocket.request.headers.get("Origin"))))
 
 async def start_server():
 
