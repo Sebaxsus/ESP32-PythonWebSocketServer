@@ -1,4 +1,4 @@
-import pathlib, json, asyncio, websockets, datetime
+import pathlib, json, asyncio, websockets, datetime, os
 
 from Logger import Server_Logger
 from db import Data_Base
@@ -6,6 +6,8 @@ from db import Data_Base
 # Doc https://flask.palletsprojects.com/en/latest/quickstart/
 
 LOG_PATH = pathlib.Path(__file__).resolve().parent / "logs"
+
+DEFUALT_DB_PATH = pathlib.Path(__file__).resolve().parent / "data.db"
 
 logger = Server_Logger(logPath=LOG_PATH).get_Logger()
 
@@ -22,8 +24,9 @@ def get_client_by_ip(ip, origin):
     
     return None
 
-def get_data_from_db():
-    return [{"timestamp": row[0], "valor": row[1]} for row in Data_Base(logger).select_data()]
+def get_data_from_db(db_path: pathlib.Path):
+    with Data_Base(logger, db_path) as db:
+        return [{"timestamp": row[0], "valor": row[1]} for row in db.select_data()]
 
 async def handle_client(websocket: websockets.ServerConnection):
     path = websocket.request.path
@@ -38,9 +41,10 @@ async def handle_client(websocket: websockets.ServerConnection):
     origin = req.headers.get("Origin")
     # print(req.serialize() ,"\n\n", origin)
     connected_clients.add((websocket, (cliet_ip, origin)))
+    db_path = pathlib.Path(os.getenv("DB_PATH", DEFUALT_DB_PATH))
 
     if path == "/dashboard":
-        data = get_data_from_db()
+        data = get_data_from_db(db_path)
         # print(f"Datos db: {data}")
         await websocket.send(json.dumps({
             "event": "historico",
@@ -61,7 +65,8 @@ async def handle_client(websocket: websockets.ServerConnection):
                     # logger.info(f"📈 Valor del sensor: {valor}")
                     local_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-                    Data_Base(logger).insert_data(valor, local_timestamp)
+                    with Data_Base(logger, db_path) as db:
+                        db.insert_data(valor, local_timestamp)
 
                     await websocket.send(json.dumps({"status": "ok", "mensaje": "Dato recibido"}))
 

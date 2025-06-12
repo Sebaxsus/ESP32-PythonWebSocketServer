@@ -1,12 +1,23 @@
 import sqlite3, pathlib, datetime, logging
 
-DB_PATH = pathlib.Path(__file__).resolve().parent / "data.db"
-
 class Data_Base:
-    def __init__(self, logger: logging.Logger):
-        self.PATH = DB_PATH
-        self.conn = sqlite3.connect(DB_PATH, check_same_thread=False)
+    def __init__(self, logger: logging.Logger, db_path: pathlib.Path):
+        self.PATH = db_path
+        self.conn = None
         self.logger = logger
+
+    def __enter__(self):
+        self.conn = sqlite3.connect(self.PATH, check_same_thread=False)
+        return self
+    
+    def __exit__(self, exc_type, exc_value, traceback):
+        if self.conn:
+            if exc_type:
+                self.conn.rollback()
+            else:
+                self.conn.commit()
+            
+            self.conn.close()
 
     def init_db(self):
         self.conn.execute("""
@@ -18,7 +29,7 @@ class Data_Base:
         """)
         self.conn.commit()
 
-    def insert_data(self, valor, local_timestamp) -> str:
+    def insert_data(self, valor: int, local_timestamp: str) -> str:
         cursor = self.conn.cursor()
         try:
             # Iniciando la transaccion
@@ -31,6 +42,8 @@ class Data_Base:
             # Si llego aqui significa que no hubo ninguna excepcion por lo que terminare la transaccion con un commit
             self.conn.commit()
 
+            return "Ok"
+
         except Exception as e:
             # En caso de que falle (Excepcion) no hago ningun cambio en la bd
             self.conn.rollback()
@@ -38,8 +51,6 @@ class Data_Base:
                 msg="Fallo la bd al insertar datos", 
                 exc_info=e
             )
-
-        return "Ok"
     
     def select_data(self) -> list[tuple[str, int]]:
         cursor = self.conn.execute("SELECT timestamp, valor FROM sensor_data ORDER BY timestamp DESC LIMIT 100")
@@ -47,19 +58,19 @@ class Data_Base:
         return cursor.fetchall()
     
     def get_db_path(self):
-        return DB_PATH
+        return self.PATH
 
     def filter_by_date(self, date: str, ascendant: bool) -> list[tuple[str, int]]:
         order = "ASC" if ascendant else "DESC"
 
         cursor = self.conn.execute(
-            f"SELECT timestamp, valor FROM sensor_data WHERE date <= ? ORDER BY timestamp {order} LIMIT 100",
+            f"SELECT timestamp, valor FROM sensor_data WHERE timestamp <= ? ORDER BY timestamp {order} LIMIT 100",
             (datetime.datetime.strftime(date, "%Y-%m-%d %H:%M:%S"),)
         )
 
         return cursor.fetchall()
 
-    def filter_by_value(self, value: str, ascendant: bool) -> list[tuple[str, int]]:
+    def filter_by_value(self, value: int, ascendant: bool) -> list[tuple[str, int]]:
         order = "ASC" if ascendant else "DESC"
 
         cursor = self.conn.execute(
