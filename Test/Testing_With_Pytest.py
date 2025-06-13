@@ -11,13 +11,11 @@ def start_test_server(tmp_path_factory):
     db_path = tmp_path_factory.mktemp("data") / "test_data.db"
 
     env = os.environ.copy()
-    env["DB_PATH"] = str[db_path]
+    env["DB_PATH"] = str(db_path)
 
     proc = subprocess.Popen(
-        ["C:/Users/sebax/Desktop/Universidad/Proyectos_aleatorios/WebSocket Con Flask/.UVEnv/Scripts/python.exe", str(BASE_DIR / "src" / "server.py")],
+        ["C:/Users/sebax/Desktop/Universidad/Proyectos_aleatorios/WebSocket Con Flask/.UVEnv/Scripts/python.exe", str(BASE_DIR / "src" / "server.py"), "--host", "127.0.0.1", "--port", "5000"],
         env=env,
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
     )
 
     # Esperando a que el servidor arranque
@@ -30,13 +28,11 @@ def start_test_server(tmp_path_factory):
     proc.wait()
 
 class TestClass:
-    async def __init__(self):
-        self.logger = Server_Logger(BASE_DIR / "Test").get_Logger()
-        self.uri = "ws://127.0.0.1:5000/"
-    
     @pytest.mark.asyncio
-    async def test_one(self):
-            async with websockets.connect(self.uri, subprotocols=["None"]) as websocket:
+    async def test_one(self, start_test_server):
+            logger = Server_Logger(BASE_DIR / "Test").get_Logger()
+            uri = "ws://127.0.0.1:5000/"
+            async with websockets.connect(uri, subprotocols=["None"]) as websocket:
                 # Enviando mensaje simunlando un ESP32
                 mensaje = {
                     "event": "sensor_data",
@@ -47,11 +43,11 @@ class TestClass:
 
                 await websocket.send(json.dumps(mensaje))
 
-                self.logger.info(f"Test Enviado: {mensaje}")
+                logger.info(f"Test Enviado: {mensaje}")
 
                 # Esperando respuesta
                 res = await websocket.recv()
 
-                self.logger.info(f"Respuesta del Server: {res}")
+                logger.info(f"Respuesta del Server: {res}")
 
                 assert json.loads(res)["status"] == "ok"

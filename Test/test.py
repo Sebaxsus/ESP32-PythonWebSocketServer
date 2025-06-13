@@ -15,7 +15,7 @@ async def test_client():
             mensaje = {
                 "event": "sensor_data",
                 "data": {
-                    "valor": 400,
+                    "valor": 300,
                 },
             }
 

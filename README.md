@@ -1,8 +1,14 @@
 # En construccion
 
+# TO DO
+
+- [ ] Hacer los diagramas de flujo, BD, Secuencia, Bloques, Estructura y Arquitectura
+- [ ] Implementar en los logs el resultado de pytest `1 passed in 5.20s`
+- [ ] Implementar los test simulando el Front
+
 ## Descipción.
 
-Proyecto para conectar el ESP32 WROOM por medio de la red local usando un servidor en Python usando WebSocket, sqlite3 para almacenar los datos y una Pagina web en Astro.js Con react de micro-frontend (Spoiler mala idea jsjsj)
+Proyecto para conectar el ESP32 WROOM por medio de la red local usando un servidor en Python usando WebSocket, sqlite3 para almacenar los datos y una [Pagina web en Astro.js Con react de micro-frontend (Spoiler mala idea jsjsj)](https://github.com/Sebaxsus/PaginaDashboardSensor)
 
 
 ## Observaciones.
@@ -36,8 +42,9 @@ Proyecto para conectar el ESP32 WROOM por medio de la red local usando un servid
 4. [Instalación.](#instalación)
 5. [Configuración.](#configuracion)
 6. [Diagramas.](#diagramas)
-7. [Autor.](#autor)
-8. [Licencia.](#licencia)
+7. [Test.](#Test)
+8. [Autor.](#autor)
+9. [Licencia.](#licencia)
 
 ## Instalación.
 
@@ -72,6 +79,24 @@ uv pip sync requiremets.txt
 ## Diagramas
 
 - [ ] Por hacer 👍.
+
+## Test
+
+Para ejecutar el test dentro de un entorno virtual se debe tener instalado `pytest y pytest-asyncio`,
+> [!IMPORTANT]
+>
+> En caso de usar un `Entorno Virtual`, Primero se debe activar el entorno virtual
+>
+> ```bash
+> .\Venv\Scripts\activate
+> ```
+
+Luego se ejecuta el siguiente comando dentro de el root de el proyecto (WebSocket Con Flask):
+```bash
+pytest .\Test\Testing_With_Pytest.py -s
+```
+
+[Imagen de un Test](./Media/Captura%20de%20pantalla%202025-06-12%20191944.png)
 
 ## Autor
 

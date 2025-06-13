@@ -7644,3 +7644,240 @@
 06-07 12:15 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":361}}
 06-07 12:16 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":358}}
 06-07 12:17 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event":"sensor_data","data":{"valor":359}}
+06-09 07:46 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-09 07:46 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-09 07:51 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-09 07:53 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-09 07:54 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-09 07:54 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-09 07:54 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-09 07:54 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-09 07:56 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-09 07:57 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-09 07:57 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-09 07:57 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-09 07:59 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-09 07:59 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 10:55 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-12 10:55 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-12 10:56 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 10:58 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:01 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:01 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:02 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:03 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:03 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:03 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:04 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:04 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:05 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:05 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:05 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:05 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:06 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:06 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:06 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:06 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:06 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:10 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:10 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:10 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:10 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:18 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:18 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:19 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:19 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:20 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:20 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:20 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:21 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:21 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:23 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-12 11:23 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-12 11:23 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:23 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:25 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-12 11:25 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-12 11:25 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:25 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:25 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-12 11:25 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-12 11:25 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:25 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 400}}
+06-12 11:25 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:26 AM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-12 11:26 AM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 400}}
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 11:27 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:29 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:29 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:30 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:30 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 11:30 AM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 11:30 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:31 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:31 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:32 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:32 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:32 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:32 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:32 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:32 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 11:32 AM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 11:32 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:34 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:34 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:34 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:34 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 11:34 AM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 11:34 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:34 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:35 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:35 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 11:35 AM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 11:35 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:37 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:38 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:38 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:38 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:39 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:39 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:39 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:39 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:40 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:40 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:40 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:40 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:41 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:41 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:44 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:44 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:45 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:45 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:45 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 11:45 AM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 11:45 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:47 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:47 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:47 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:47 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:49 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:50 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:50 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 11:50 AM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 11:50 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:51 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:51 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:52 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:55 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:56 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:56 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:56 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:57 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:57 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 11:57 AM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 11:57 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:57 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 11:57 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:57 AM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 11:57 AM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 11:57 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 11:58 AM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:00 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:00 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 12:00 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 12:00 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 12:00 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 12:00 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:00 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:02 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:02 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:03 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:03 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:04 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 12:05 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 12:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 12:09 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 12:09 PM - Logger - Type: [INFO] - Msg: 📡 Comunicandose con el Front
+06-12 12:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 12:21 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:21 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:21 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:21 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:23 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:23 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:23 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:23 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:23 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:23 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:24 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:25 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:25 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:25 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:25 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:29 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:29 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:30 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:30 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:30 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:32 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:32 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:33 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:33 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:37 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 12:37 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: arduino
+06-12 07:16 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-12 07:16 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-12 07:16 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-12 07:16 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-12 07:16 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
