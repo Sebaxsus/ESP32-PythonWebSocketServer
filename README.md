@@ -96,7 +96,7 @@ Luego se ejecuta el siguiente comando dentro de el root de el proyecto (WebSocke
 pytest .\Test\Testing_With_Pytest.py -s
 ```
 
-[Imagen de un Test](./Media/Captura%20de%20pantalla%202025-06-12%20191944.png)
+![Imagen de un Test](./Media/Captura%20de%20pantalla%202025-06-12%20191944.png)
 
 ## Autor
 
