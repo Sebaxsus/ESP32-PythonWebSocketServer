@@ -35,8 +35,8 @@ async def handle_client(websocket: websockets.ServerConnection):
     #     logger.warning(f"❌ Path no permitido: {path}")
     #     await websocket.close()
     #     return
-    
-    logger.info(f"🟢 Cliente conectado path: {path} clint_Ip: {cliet_ip} Subprotocolo aceptado: {websocket.subprotocol}")
+    subprotocol = websocket.subprotocol
+    logger.info(f"🟢 Cliente conectado path: {path} clint_Ip: {cliet_ip} Subprotocolo aceptado: {subprotocol}")
     req = websocket.request
     origin = req.headers.get("Origin")
     # print(req.serialize() ,"\n\n", origin)
@@ -66,6 +66,12 @@ async def handle_client(websocket: websockets.ServerConnection):
                     local_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
                     with Data_Base(logger, db_path) as db:
+                        # Hardcodeado para que Genere la tabla en caso
+                        # De que la peticion sea del Test (Subprotocolo None)
+                        # Es una mala practica pero funciona
+                        # \_(シ)_/ 🤷‍♂️
+                        if subprotocol == "None":
+                            db.init_db()
                         db.insert_data(valor, local_timestamp)
 
                     await websocket.send(json.dumps({"status": "ok", "mensaje": "Dato recibido"}))
@@ -88,7 +94,7 @@ async def handle_client(websocket: websockets.ServerConnection):
         logger.info("🔌 Cliente desconectado")
 
     finally:
-        connected_clients.remove((websocket, (websocket.remote_address[0], websocket.request.headers.get("Origin"))))     
+        connected_clients.remove((websocket, (websocket.remote_address[0], websocket.request.headers.get("Origin"))))  
 
 async def start_server():
 
