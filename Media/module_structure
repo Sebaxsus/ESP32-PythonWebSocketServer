@@ -1,0 +1,15 @@
+// Estructura de módulos
+digraph {
+	rankdir=TB
+	A [label="server.py"]
+	B [label=Logger]
+	C [label=Data_Base]
+	D [label="conftest.py"]
+	E [label="Testing_With_Pytest.py"]
+	"server.py" -> Logger
+	"server.py" -> Data_Base
+	"conftest.py" -> Logger
+	"conftest.py" -> "server.py"
+	"Testing_With_Pytest.py" -> "conftest.py"
+	"Testing_With_Pytest.py" -> Logger
+}

@@ -1,0 +1,21 @@
+// Flujo de los tests automáticos
+digraph {
+	rankdir=TB
+	A [label="Iniciar Pytest"]
+	B [label="Fixture: iniciar servidor WebSocket"]
+	C [label="Esperar 5s"]
+	D [label="Ejecutar TestClient"]
+	E [label="Enviar JSON por WebSocket"]
+	F [label="Esperar respuesta"]
+	G [label="Verificar respuesta"]
+	H [label="Terminar servidor"]
+	I [label=pytest_terminal_summary]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+	H -> I
+}

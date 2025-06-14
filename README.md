@@ -80,6 +80,60 @@ uv pip sync requiremets.txt
 
 - [ ] Por hacer 👍.
 
+**Flujo del Servidor WebSocket**
+
+flowchart TD
+    A[Inicio del Servidor] --> B[Configura Logger y DB]
+    B --> C[Escucha conexiones WebSocket]
+    C --> D{¿Ruta /dashboard?}
+    D -- Sí --> E[Filtra histórico desde SQLite]
+    D -- No --> F[Espera datos desde el cliente]
+    F --> G{Evento: sensor_data}
+    G -- Sí --> H[Guardar en DB y Responder OK]
+    G -- No --> I[Ignorar o responder error]
+    E --> J[Envía histórico al cliente]
+    H --> K[Continúa escuchando]
+    I --> K
+    J --> K
+
+
+**Flujos de los Test Automáticos en Pytest**
+
+flowchart TD
+    A[Pytest Inicia] --> B[Fixture start_test_server]
+    B --> C[Define DB temporal y lanza el servidor]
+    C --> D[Test espera 5s]
+    D --> E[TestClass ejecuta test_one]
+    E --> F[Se conecta al WebSocket]
+    F --> G[Envía JSON simulado]
+    G --> H[Recibe respuesta del servidor]
+    H --> I[Valida respuesta con assert]
+    I --> J[TestClass ejecuta test_two]
+    J --> K[Recibe datos de histórico]
+    K --> L[Valida tipo y contenido]
+    L --> M[Hook pytest_terminal_summary]
+    M --> N[Logger escribe resumen del test]
+
+
+**Estructura de Módulos**
+
+graph TD
+    Server[server.py] --> Logger
+    Server --> DataBase
+    Server --> WebSocket
+
+    Logger[Logger.py] -->|get_Logger()| Logging[logging]
+
+    DataBase[Data_Base.py] -->|connect()| SQLite[SQLite]
+    DataBase -->|context manager| Server
+
+    WebSocket[websockets] --> Server
+
+    Test[TestClass] -->|simula cliente| WebSocket
+    Test -->|usa fixture| Server
+    Test --> Logger
+
+
 ## Test
 
 Para ejecutar el test dentro de un entorno virtual se debe tener instalado `pytest y pytest-asyncio`,

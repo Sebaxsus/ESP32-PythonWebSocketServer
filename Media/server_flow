@@ -1,0 +1,18 @@
+// Flujo general del servidor WebSocket
+digraph {
+	rankdir=LR size=8
+	A [label="Cliente ESP/Web"]
+	B [label="Servidor WebSocket"]
+	C [label="Parseo del mensaje JSON"]
+	D [label="Identificar evento"]
+	E1 [label="Guardar en SQLite" shape=box]
+	E2 [label="Enviar datos al cliente" shape=box]
+	F [label="Cerrar conexión"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E1
+	D -> E2
+	E1 -> F
+	E2 -> F
+}
