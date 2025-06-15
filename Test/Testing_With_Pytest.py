@@ -5,8 +5,35 @@ BASE_DIR = pathlib.Path(__file__).resolve().parent.parent
 sys.path.append(str(BASE_DIR))
 
 class TestClass:
+    """
+    Al declarar una clase dentro con el prefijo (Prefix) reservado por Pytest
+    `Test` Pytest la entiende y todos sus metodos tambien deben iniciar con el prefijo
+    (Prefix) test_ para que pytest lo entienda y lo ejecute,
+
+    En resumen Pytest reserva el prefijo `Test y test_` para ejecutar varios test y organizarlos dentro
+    de una clase.
+
+    ---
+
+    Para usar los fixture de `conftest.py` solo toca llamar el nombre de el metodo declarado
+    en `conftest.py`
+
+    ---
+
+    Como los test son asincronos toca instalar el plug-in de pytest `pytest-asyncio`
+    y usar el decorador `@pytest.mark.asyncio`
+
+    ---
+
+    Al iniciar el Test el Fixture `start_test_server` se encarga de iniciar el servidor WebSocket y Definir una ruta
+    **TEMPORAL** para la base de datos con el fin de no afectar los datos Almacenados dentro de la Base De Datos
+    """
     @pytest.mark.asyncio
     async def test_one(self, start_test_server, test_logger):
+            """
+            Este test se encarga de simular una interaccion entre el ESP32
+            y el WebSocket, Conectandose al WebSocket y luego mandando un dato de prueba.
+            """
             uri = "ws://127.0.0.1:5000/"
             async with websockets.connect(uri, subprotocols=["None"]) as websocket:
                 # Enviando mensaje simunlando un ESP32
@@ -30,6 +57,17 @@ class TestClass:
 
     @pytest.mark.asyncio
     async def test_two(self, start_test_server, test_logger):
+        """
+        Este test se encarga de simular una interaccion entre la Pagina Web y el Servidor WebSokcet,
+        Conectandose al Servidor con el Path (Ruta) `/dashboard`
+
+        **SENDS:**
+            `Connection with path "/dashboard"`
+
+        **EXPECTS:**
+            `(Objet with attribute "event") with a value "historico"`
+            `(Object with attribute "data") with a data Type (list)`
+        """
         uri = "ws://127.0.0.1:5000/dashboard"
 
         async with websockets.connect(uri, subprotocols=["None"]) as websocket:
@@ -48,6 +86,17 @@ class TestClass:
 
     @pytest.mark.asyncio
     async def test_three(self, start_test_server, test_logger):
+        """
+        Este test se encarga de simular una interaccion entre la Pagina Web y el Servidor WebSokcet,
+        Conectandose al Servidor con el Path (Ruta) `/dashboard` y el Parametro de Ruta (QueryParam) `date`
+
+        **SENDS:**
+            `Connection with path "/dashboard?date=YYYY-MM-DD"`
+
+        **EXPECTS:**
+            `(Objet with attribute "event") with a value "historico"`
+            `(Object with attribute "data") with a data Type (list)`
+        """
         uri = "ws://127.0.0.1:5000/dashboard?date=2025-03-12"
 
         async with websockets.connect(uri, subprotocols=["None"]) as websocket:
@@ -65,6 +114,17 @@ class TestClass:
 
     @pytest.mark.asyncio
     async def test_four(self, start_test_server, test_logger):
+        """
+        Este test se encarga de simular una interaccion entre la Pagina Web y el Servidor WebSokcet,
+        Conectandose al Servidor con el Path (Ruta) `/dashboard` y el Parametro de Ruta (QueryParam) `value`
+
+        **SENDS:**
+            `Connection with path "/dashboard?value=Number"`
+
+        **EXPECTS:**
+            `(Objet with attribute "event") with a value "historico"`
+            `(Object with attribute "data") with a data Type (list)`
+        """
         uri = "ws://127.0.0.1:5000/dashboard?value=450"
 
         async with websockets.connect(uri, subprotocols=["None"]) as websocket:

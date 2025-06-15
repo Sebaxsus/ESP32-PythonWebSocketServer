@@ -3,8 +3,8 @@
 # TO DO
 
 - [ ] Hacer los diagramas de flujo, BD, Secuencia, Bloques, Estructura y Arquitectura
-- [ ] Implementar en los logs el resultado de pytest `1 passed in 5.20s`
-- [ ] Implementar los test simulando el Front
+- [x] Implementar en los logs el resultado de pytest `1 passed in 5.20s`
+- [x] Implementar los test simulando el Front
 
 ## Descipción.
 
@@ -154,6 +154,55 @@ pytest .\Test\Testing_With_Pytest.py -s
 ```
 
 ![Imagen de un Test](./Media/Captura%20de%20pantalla%202025-06-12%20191944.png)
+
+![Imagen de mas Test](./Media/Captura%20de%20pantalla%202025-06-14%20201238.png)
+
+---
+
+Que es conftest.py y porque Pytest entiende este archivo por si solo
+y por ende no es necesario importarlo en el Test:
+
+### ¿Qué es `conftest.py`?
+
+`conftest.py` es un archivo **RESERVADO** por `Pytest` para definir
+**Fixtures y hooks globales**, Por esto no es necesario importarlo manualmente en
+los test de `Pytest`, Ya que `Pytest` lo detecta automáticamente **si está en el mismo directorio
+o en uno superior al test**
+
+---
+
+### ¿Qué son los `fixtures`?
+
+Los `fixtures` en `pytest` son funciones que **Preparan datos o recursos** para tus pruebas y pueden compartirse entre múltiples test.
+**EJEMPLO:**
+```python
+# conftest.py
+import pytest
+from src.Logger import Server_Logger
+@pytest.fixture()
+def test_logger():
+    logger = Server_Logger(...)
+    return logger
+```
+
+El usar `scope="module"` significa que se creara una vez por módulo de test.
+
+**COMO USARLO DENTRO DE UN TEST:**
+```python
+# test.py
+import pytest
+def test_num(test_logger):
+    test_logger.info("Iniciando test")
+    assert sum_nums(2,2) == 2
+    assert isinstance(sum_nums(2,2), int)
+
+```
+
+---
+
+[Info en la Documentación de conftest.py](https://docs.pytest.org/en/stable/how-to/fixtures.html#conftest-py-sharing-fixture-functions)
+
+[Info en la Documentación de Hooks](https://docs.pytest.org/en/stable/reference/reference.html#hooks)
 
 ## Autor
 

@@ -38,6 +38,8 @@ def test_num(test_logger):
 
 ```
 
+---
+
 [Info en la Documentación de conftest.py](https://docs.pytest.org/en/stable/how-to/fixtures.html#conftest-py-sharing-fixture-functions)
 
 [Info en la Documentación de Hooks](https://docs.pytest.org/en/stable/reference/reference.html#hooks)
