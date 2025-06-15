@@ -82,6 +82,7 @@ uv pip sync requiremets.txt
 
 **Flujo del Servidor WebSocket**
 
+```mermaid
 flowchart TD
     A[Inicio del Servidor] --> B[Configura Logger y DB]
     B --> C[Escucha conexiones WebSocket]
@@ -95,10 +96,11 @@ flowchart TD
     H --> K[Continúa escuchando]
     I --> K
     J --> K
-
+```
 
 **Flujos de los Test Automáticos en Pytest**
 
+```mermaid
 flowchart TD
     A[Pytest Inicia] --> B[Fixture start_test_server]
     B --> C[Define DB temporal y lanza el servidor]
@@ -113,10 +115,11 @@ flowchart TD
     K --> L[Valida tipo y contenido]
     L --> M[Hook pytest_terminal_summary]
     M --> N[Logger escribe resumen del test]
-
+```
 
 **Estructura de Módulos**
 
+```mermaid
 graph TD
     Server[server.py] --> Logger
     Server --> DataBase
@@ -132,7 +135,7 @@ graph TD
     Test[TestClass] -->|simula cliente| WebSocket
     Test -->|usa fixture| Server
     Test --> Logger
-
+```
 
 ## Test
 
