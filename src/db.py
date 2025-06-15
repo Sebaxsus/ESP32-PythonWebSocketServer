@@ -20,6 +20,9 @@ class Data_Base:
             self.conn.close()
 
     def init_db(self):
+        """
+        Crea la tabla sensor_data en caso de que no exista
+        """
         self.conn.execute("""
             CREATE TABLE IF NOT EXISTS sensor_data (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -30,6 +33,9 @@ class Data_Base:
         self.conn.commit()
 
     def insert_data(self, valor: int, local_timestamp: str) -> str:
+        """
+        Guarda los datos en la tabla sensor_data
+        """
         cursor = self.conn.cursor()
         try:
             # Iniciando la transaccion
@@ -58,6 +64,9 @@ class Data_Base:
         return cursor.fetchall()
     
     def get_db_path(self):
+        """
+        Devuelve el path (Ruta) actual de la Base de Datos `.db`
+        """
         return self.PATH
 
     def filter_by_date(self, date: str, ascendant: bool) -> list[tuple[str, int]]:
@@ -76,6 +85,16 @@ class Data_Base:
         cursor = self.conn.execute(
             f"SELECT timestamp, valor FROM sensor_data WHERE valor <= ? ORDER BY timestamp {order} LIMIT 100", 
             (value,)
+        )
+
+        return cursor.fetchall()
+    
+    def filter_by_data_and_value(self, date: str, value: int, ascendant: bool):
+        order = "ASC" if ascendant else "DESC"
+
+        cursor = self.conn.execute(
+            f"SELECT timestamp, valor FROM sensor_data WHERE timestamp <= ? AND valor <= ? ORDER BY timestamp {order} LIMIT 100",
+            (date, value,)
         )
 
         return cursor.fetchall()
