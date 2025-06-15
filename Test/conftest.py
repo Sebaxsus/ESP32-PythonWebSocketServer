@@ -91,17 +91,34 @@ def start_test_server(tmp_path_factory):
     proc.terminate()
     proc.wait()
 
-# pytest.TerminalReporter.build_summary_stats_line()
+pytest.TerminalReporter.summary_stats
 def pytest_terminal_summary(terminalreporter, exitstatus, config):
     summary = terminalreporter.build_summary_stats_line()
+    passed = terminalreporter.stats.get("passed", [])
+    failed = terminalreporter.stats.get("failed", [])
+    skipped = terminalreporter.stats.get("skipped", [])
 
     global logger
 
-    logger.info("📋 Resumen del Test:")
+    logger.info("📋 Resumen detallado del test:")
+    logger.info(f"✅ Tests pasados: {len(passed)}")
+    for test in passed:
+        logger.info(f"  - {test.nodeid}")
+
+    if failed:
+        logger.warning(f"❌ Tests fallidos: {len(failed)}")
+        for test in failed:
+            logger.warning(f"  - {test.nodeid}")
+
+    if skipped:
+        logger.info(f"⚠️  Tests saltados: {len(skipped)}")
+        for test in skipped:
+            logger.info(f"  - {test.nodeid}")
+
     results = []
     for result in summary[0]:
         results.append(result[0])
 
     logger.info(f"{results} in {datetime.datetime.now() - start_time} s")
 
-    # logger.info(f"⏱️  Tiempo total: {total_time:.2f}s")
+    # logger.info(f"⏱️  Tiempo total: {terminalreporter._duration:.2f}s")

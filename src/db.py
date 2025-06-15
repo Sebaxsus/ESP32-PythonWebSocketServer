@@ -65,7 +65,7 @@ class Data_Base:
 
         cursor = self.conn.execute(
             f"SELECT timestamp, valor FROM sensor_data WHERE timestamp <= ? ORDER BY timestamp {order} LIMIT 100",
-            (datetime.datetime.strftime(date, "%Y-%m-%d %H:%M:%S"),)
+            (datetime.datetime.strptime(date, "%Y-%m-%d"),)
         )
 
         return cursor.fetchall()

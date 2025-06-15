@@ -33,9 +33,49 @@ class TestClass:
         uri = "ws://127.0.0.1:5000/dashboard"
 
         async with websockets.connect(uri, subprotocols=["None"]) as websocket:
+            test_logger.info(f"Test Endpoint: '/dashboard'")
+
             # Esperando la respuesta del Servidor al Front
             res = await websocket.recv()
+
             # json.loads() Carga un string y lo parsea a un formato JSON (Objeto alias DICT)
             data = json.loads(res)
+
+            test_logger.info(f"Respuesta del Server: {res}")
+
+            assert data["event"] == "historico"
+            assert isinstance(data["data"], list)
+
+    @pytest.mark.asyncio
+    async def test_three(self, start_test_server, test_logger):
+        uri = "ws://127.0.0.1:5000/dashboard?date=2025-03-12"
+
+        async with websockets.connect(uri, subprotocols=["None"]) as websocket:
+            test_logger.info(f"Test Endpoint + QueryParam: '/dashboard?date=2025-03-12'")
+
+            # Esperando la respuesta del Servidor
+            res = await websocket.recv()
+
+            data = json.loads(res)
+
+            test_logger.info(f"Respuesta del Server: {res}")
+
+            assert data["event"] == "historico"
+            assert isinstance(data["data"], list)
+
+    @pytest.mark.asyncio
+    async def test_four(self, start_test_server, test_logger):
+        uri = "ws://127.0.0.1:5000/dashboard?value=450"
+
+        async with websockets.connect(uri, subprotocols=["None"]) as websocket:
+            test_logger.info(f"Test Endpoint + QueryParam: '/dashboard?value=450'")
+
+            # Esperando la respuesta del servidor
+            res = await websocket.recv()
+
+            data = json.loads(res)
+
+            test_logger.info(f"Respuesta del Server: {res}")
+
             assert data["event"] == "historico"
             assert isinstance(data["data"], list)

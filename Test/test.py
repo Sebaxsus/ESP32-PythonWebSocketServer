@@ -1,4 +1,4 @@
-import asyncio, websockets, json, pathlib, sys, os
+import asyncio, websockets, json, pathlib, sys, os, datetime
 
 BASE_DIR = pathlib.Path(__file__).resolve().parent.parent
 
@@ -43,5 +43,17 @@ async def test_client_db():
     except Exception as e:
         logger.error(f"❌ Error al conectar o enviar datos: {e}")
 
-asyncio.run(test_client())
-asyncio.run(test_client_db())
+# asyncio.run(test_client())
+# asyncio.run(test_client_db())
+
+# print(datetime.datetime.strptime("2025-03-12", "%Y-%m-%d"))
+
+# dicto = {"date": ["asdasda"], "value": ["Hoalsd"]}
+# QueryData = []
+
+# for key in dicto.keys():
+#     QueryData.append((key, dicto.get(key)[0]))
+
+# print(QueryData)
+
+

@@ -7881,3 +7881,372 @@ Traceback (most recent call last):
   File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
     cursor.execute(
 sqlite3.OperationalError: no such table: sensor_data
+06-14 04:58 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 04:58 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 04:58 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 04:58 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 04:58 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 04:59 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 04:59 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 04:59 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 04:59 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 04:59 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:09 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:09 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:09 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:09 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:09 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:09 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:09 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:09 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:09 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:11 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:11 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:11 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:11 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:11 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:11 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:14 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:14 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:14 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:14 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:14 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:14 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:15 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:15 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:15 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:15 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:15 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:15 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:23 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:23 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:23 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:23 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:23 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:23 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:27 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:27 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:27 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:31 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:31 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:31 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:31 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:34 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:34 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:34 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:34 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:35 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:35 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:35 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:35 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:36 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:36 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:36 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:36 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:36 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:36 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:38 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:38 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:39 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:39 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:39 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:39 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:39 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:39 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:40 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:40 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:40 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:40 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:43 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:43 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:43 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:46 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:46 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:46 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:46 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:46 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:46 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:47 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:47 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:47 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:47 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:47 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:47 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:49 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:49 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 05:49 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 05:49 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 05:49 PM - Logger - Type: [ERROR] - Msg: Fallo la bd al insertar datos
+Traceback (most recent call last):
+  File "C:\Users\sebax\Desktop\Universidad\Proyectos_aleatorios\WebSocket Con Flask\src\db.py", line 38, in insert_data
+    cursor.execute(
+sqlite3.OperationalError: no such table: sensor_data
+06-14 05:49 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 06:06 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 06:06 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 06:06 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 06:06 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 06:06 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 06:42 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 06:42 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 06:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 06:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 06:43 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 06:43 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 06:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 06:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 06:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:20 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:20 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 07:20 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 07:20 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:20 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:31 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:31 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 07:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:31 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 07:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:31 PM - Logger - Type: [INFO] - Msg: QueryParams: {}
+ Keys: dict_keys([])
+ Date: None
+ Value: None
+06-14 07:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:31 PM - Logger - Type: [INFO] - Msg: QueryParams: {'date': ['2025-03-12']}
+ Keys: dict_keys(['date'])
+ Date: ['2025-03-12']
+ Value: None
+06-14 07:31 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:31 PM - Logger - Type: [INFO] - Msg: QueryParams: {'date': ['2025-03-12']}
+ Keys: dict_keys(['date'])
+ Date: ['2025-03-12']
+ Value: None
+06-14 07:33 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:33 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 07:33 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:33 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 07:33 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:33 PM - Logger - Type: [INFO] - Msg: QueryParams: {}
+ Keys: dict_keys([])
+ Date: None
+ Value: None
+06-14 07:33 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:33 PM - Logger - Type: [INFO] - Msg: QueryParams: {'date': ['2025-03-12']}
+ Keys: dict_keys(['date'])
+ Date: ['2025-03-12']
+ Value: None
+06-14 07:33 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:33 PM - Logger - Type: [INFO] - Msg: QueryParams: {'date': ['2025-03-12']}
+ Keys: dict_keys(['date'])
+ Date: ['2025-03-12']
+ Value: None
+06-14 07:34 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:34 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 07:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:34 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 07:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:34 PM - Logger - Type: [INFO] - Msg: QueryParams: {}
+ Keys: dict_keys([])
+ Date: None
+ Value: None
+06-14 07:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:34 PM - Logger - Type: [INFO] - Msg: QueryParams: {'date': ['2025-03-12']}
+ Keys: dict_keys(['date'])
+ Date: ['2025-03-12']
+ Value: None
+06-14 07:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:34 PM - Logger - Type: [INFO] - Msg: QueryParams: {'value': ['450']}
+ Keys: dict_keys(['value'])
+ Date: None
+ Value: ['450']
+06-14 07:39 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:39 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 07:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 07:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:39 PM - Logger - Type: [INFO] - Msg: QueryParams: {}
+ Keys: dict_keys([])
+ Date: None
+ Value: None
+06-14 07:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:39 PM - Logger - Type: [INFO] - Msg: QueryParams: {'date': ['2025-03-12']}
+ Keys: dict_keys(['date'])
+ Date: ['2025-03-12']
+ Value: None
+06-14 07:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:39 PM - Logger - Type: [INFO] - Msg: QueryParams: {'value': ['450']}
+ Keys: dict_keys(['value'])
+ Date: None
+ Value: ['450']
+06-14 07:40 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:40 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 07:40 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:40 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 07:40 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:40 PM - Logger - Type: [INFO] - Msg: QueryParams: {}
+ Keys: dict_keys([])
+ Date: None
+ Value: None
+06-14 07:40 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:40 PM - Logger - Type: [INFO] - Msg: QueryParams: {'date': ['2025-03-12']}
+ Keys: dict_keys(['date'])
+ Date: ['2025-03-12']
+ Value: None
+06-14 07:40 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:40 PM - Logger - Type: [INFO] - Msg: QueryParams: {'value': ['450']}
+ Keys: dict_keys(['value'])
+ Date: None
+ Value: ['450']
+06-14 07:43 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:43 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 07:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 07:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:43 PM - Logger - Type: [INFO] - Msg: QueryParams: {}
+ Keys: dict_keys([])
+ Date: None
+ Value: None
+06-14 07:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:43 PM - Logger - Type: [INFO] - Msg: QueryParams: {'date': ['2025-03-12']}
+ Keys: dict_keys(['date'])
+ Date: ['2025-03-12']
+ Value: None
+06-14 07:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:43 PM - Logger - Type: [INFO] - Msg: QueryParams: {'value': ['450']}
+ Keys: dict_keys(['value'])
+ Date: None
+ Value: ['450']
+06-14 07:48 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:48 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 07:49 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:49 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 07:49 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:49 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:49 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:51 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:51 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 07:51 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:51 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 07:51 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:51 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-14 07:51 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:51 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-14 07:51 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 07:51 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-14 08:11 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 08:11 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 08:11 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 08:11 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 08:11 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 08:11 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-14 08:11 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 08:11 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', ['2025-03-12'])
+06-14 08:11 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 08:11 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', ['450'])
+06-14 08:12 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 08:12 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-14 08:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 08:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-14 08:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 08:12 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-14 08:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 08:12 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12')
+06-14 08:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450 clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-14 08:12 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450')

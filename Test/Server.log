@@ -153,3 +153,199 @@
 06-12 07:16 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
 06-12 07:16 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
 06-12 07:16 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 04:58 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 04:58 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 04:58 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 04:59 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 04:59 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 04:59 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:09 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:09 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:09 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:09 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:09 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:09 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:09 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:11 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:11 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:11 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:11 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:14 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:14 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:14 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:14 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:15 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:15 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:15 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:15 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:23 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:23 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:23 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:23 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:23 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:23 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:26 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:27 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:27 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:27 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:31 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:31 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:31 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:34 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:34 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:34 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:34 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:35 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:35 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:35 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:35 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:36 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:36 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:36 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:36 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:38 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:39 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:39 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:39 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:39 PM - src.Logger - Type: [INFO] - Msg:  - test {'red': True, 'bold': True}: 1 failed
+06-14 05:39 PM - src.Logger - Type: [INFO] - Msg:  - test {'green': True, 'bold': False}: 1 passed
+06-14 05:39 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:39 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:39 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:39 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:39 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:40 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:40 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:40 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:43 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:43 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:43 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:43 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:43 PM - src.Logger - Type: [INFO] - Msg: ('1 passed', {'green': True, 'bold': False}) in 0:00:05.255954 s
+06-14 05:46 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:46 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:46 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:46 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:47 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:47 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:47 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:47 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:47 PM - src.Logger - Type: [INFO] - Msg: ('1 passed', {'green': True, 'bold': False}) in 0:00:05.261862 s
+06-14 05:49 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 05:49 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 05:49 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 05:49 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 05:49 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '1 passed'] in 0:00:05.267173 s
+06-14 06:06 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 06:06 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 06:06 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 06:06 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 06:06 PM - src.Logger - Type: [INFO] - Msg: ['2 passed'] in 0:00:05.304350 s
+06-14 06:42 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 06:42 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 06:42 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 06:42 PM - src.Logger - Type: [INFO] - Msg: ['2 failed'] in 0:00:05.377834 s
+06-14 06:43 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 06:43 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 06:43 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 06:43 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 06:43 PM - src.Logger - Type: [INFO] - Msg: ['2 passed'] in 0:00:05.198313 s
+06-14 07:20 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:20 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 07:20 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 07:20 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 07:20 PM - src.Logger - Type: [INFO] - Msg: ['3 passed'] in 0:00:05.207662 s
+06-14 07:31 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:31 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 07:31 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 07:31 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 07:31 PM - src.Logger - Type: [INFO] - Msg: ['2 failed', '2 passed'] in 0:00:05.645204 s
+06-14 07:33 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:33 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 07:33 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 07:33 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 07:33 PM - src.Logger - Type: [INFO] - Msg: ['2 failed', '2 passed'] in 0:00:05.331258 s
+06-14 07:34 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:34 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 07:34 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 07:34 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 07:34 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '3 passed'] in 0:00:05.614097 s
+06-14 07:39 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:39 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 07:39 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 07:39 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-14 07:39 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-14 07:39 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-14 07:39 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-14 07:39 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-14 07:39 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-14 07:39 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen del Test:
+06-14 07:39 PM - src.Logger - Type: [INFO] - Msg: ['4 passed'] in 0:00:05.108171 s
+06-14 07:40 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:40 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 07:40 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 07:40 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-14 07:40 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-14 07:40 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-14 07:40 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-14 07:40 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-14 07:40 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-14 07:40 PM - src.Logger - Type: [INFO] - Msg: ['4 passed'] in 0:00:05.104448 s
+06-14 07:43 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:43 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 07:43 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 07:43 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-14 07:43 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-14 07:43 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-14 07:43 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-14 07:43 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-14 07:43 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-14 07:43 PM - src.Logger - Type: [INFO] - Msg: ['4 passed'] in 0:00:05.125984 s
+06-14 07:48 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:49 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 07:49 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 07:49 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-14 07:49 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-14 07:49 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-14 07:49 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-14 07:49 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-14 07:49 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-14 07:49 PM - src.Logger - Type: [INFO] - Msg: ['4 passed'] in 0:00:05.581783 s
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-14 19:51:40", "valor": 300}]}
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-14 19:51:40", "valor": 300}]}
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-14 19:51:40", "valor": 300}]}
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-14 07:51 PM - src.Logger - Type: [INFO] - Msg: ['4 passed'] in 0:00:05.220954 s
+06-14 08:11 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 08:11 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 08:11 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 08:11 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-14 20:11:25", "valor": 300}]}
+06-14 08:11 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-14 08:11 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 2
+06-14 08:11 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-14 08:11 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-14 08:11 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 2
+06-14 08:11 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-14 08:11 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-14 08:11 PM - src.Logger - Type: [INFO] - Msg: ['2 failed', '2 passed'] in 0:00:05.407045 s
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-14 20:12:16", "valor": 300}]}
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-14 20:12:16", "valor": 300}]}
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-14 08:12 PM - src.Logger - Type: [INFO] - Msg: ['4 passed'] in 0:00:05.204647 s

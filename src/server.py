@@ -1,4 +1,5 @@
-import pathlib, json, asyncio, websockets, datetime, os
+import pathlib, json, asyncio, websockets, datetime, os, urllib
+import urllib.parse
 
 from Logger import Server_Logger
 from db import Data_Base
@@ -17,6 +18,14 @@ connected_clients = set()
     
 data = []
 
+def get_query_data(QueryObject: dict) -> list[tuple[str|None, str|None] | tuple[None, None]]:
+    QueryData = []
+    for key in QueryObject.keys():
+        QueryData.append( ( key, QueryObject.get(key)[0] ) )
+    # Como todavia no esta implementado el filtro por Fecha y Valor entonces me salto esto
+    # Y solo utilizo la unica tupla que se recive
+    return QueryData[0] if len(QueryData) > 0 else (None, None)
+
 def get_client_by_ip(ip, origin):
     for ws, clientData in connected_clients:
         if clientData[0] == ip and clientData[1] == origin:
@@ -24,9 +33,14 @@ def get_client_by_ip(ip, origin):
     
     return None
 
-def get_data_from_db(db_path: pathlib.Path):
+def get_data_from_db(db_path: pathlib.Path, type: str|None, value: str|None) -> list[dict["timestap": str,"valor": str]]:
     with Data_Base(logger, db_path) as db:
-        return [{"timestamp": row[0], "valor": row[1]} for row in db.select_data()]
+        if type == "date" and value:
+            return [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_date(value, False)]
+        elif type == "value" and value:
+            return [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_value(value, False)]
+        else:
+            return [{"timestamp": row[0], "valor": row[1]} for row in db.select_data()]
 
 async def handle_client(websocket: websockets.ServerConnection):
     path = websocket.request.path
@@ -43,8 +57,29 @@ async def handle_client(websocket: websockets.ServerConnection):
     connected_clients.add((websocket, (cliet_ip, origin)))
     db_path = pathlib.Path(os.getenv("DB_PATH", DEFUALT_DB_PATH))
 
-    if path == "/dashboard":
-        data = get_data_from_db(db_path)
+    if "/dashboard" in path:
+        # Parseando la URL con URLLIB para separar el "EndPoint" del "QueryString o QueryParameters
+        # Url Ejemplo: ws:127.0.0.1/dashboard?date=2025-03-12
+        parsedPath = urllib.parse.urlparse(path)
+        # route = parsedPath.path # "/dashboard"
+        query = urllib.parse.parse_qs(parsedPath.query) # {"date": ["2025-03-12"]}
+        # logger.info(f"QueryParams: {query}\n Keys: {query.keys()}\n Date: {query.get("date")}\n Value: {query.get("value")}")
+        # if query.get("date"):
+        #     queryType = "date"
+        #     queryValue = query.get("date")[0]
+        # elif query.get("value"):
+        #     queryType = "value"
+        #     queryValue = query.get("value")[0]
+        # else:
+        #     queryType = None
+        #     queryValue = None
+
+        queryData = get_query_data(query)
+
+        logger.info(f"QueryParams Parseado: {queryData}")
+
+        data = get_data_from_db(db_path, queryData[0], queryData[1])
+        logger.debug(f"Respuesta de la BD: {data}")
         # print(f"Datos db: {data}")
         await websocket.send(json.dumps({
             "event": "historico",
