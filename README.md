@@ -125,14 +125,14 @@ graph TD
     Server --> DataBase
     Server --> WebSocket
 
-    Logger --> Logging[logging (std lib)]
+    Logger --> Logging[logging_stdlib]
 
-    DataBase --> SQLite[SQLite (DB)]
+    DataBase --> SQLite[SQLite_DB]
     DataBase --> Server
 
     WebSocket --> Server
 
-    Test[TestClass (pytest)] --> WebSocket
+    Test[TestClass_pytest] --> WebSocket
     Test --> Server
     Test --> Logger
 ```
