@@ -125,15 +125,15 @@ graph TD
     Server --> DataBase
     Server --> WebSocket
 
-    Logger[Logger.py] -->|get_Logger()| Logging[logging]
+    Logger --> Logging[logging (std lib)]
 
-    DataBase[Data_Base.py] -->|connect()| SQLite[SQLite]
-    DataBase -->|context manager| Server
+    DataBase --> SQLite[SQLite (DB)]
+    DataBase --> Server
 
-    WebSocket[websockets] --> Server
+    WebSocket --> Server
 
-    Test[TestClass] -->|simula cliente| WebSocket
-    Test -->|usa fixture| Server
+    Test[TestClass (pytest)] --> WebSocket
+    Test --> Server
     Test --> Logger
 ```
 
