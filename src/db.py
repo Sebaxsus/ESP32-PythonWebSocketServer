@@ -58,7 +58,11 @@ class Data_Base:
                 exc_info=e
             )
     
-    def select_data(self) -> list[tuple[str, int]]:
+    def select_data(self, order: str|None) -> list[tuple[str, int]]:
+        if not order:
+            order = "timestamp DESC" # Manejando el caso de que no se mande order
+            # Y estableciendo un orden por defecto
+            
         cursor = self.conn.execute("SELECT timestamp, valor FROM sensor_data ORDER BY timestamp DESC LIMIT 100")
 
         return cursor.fetchall()
@@ -69,31 +73,38 @@ class Data_Base:
         """
         return self.PATH
 
-    def filter_by_date(self, date: str, ascendant: bool) -> list[tuple[str, int]]:
-        order = "ASC" if ascendant else "DESC"
+    def filter_by_date(self, date: str, order: str|None) -> list[tuple[str, int]]:
+        if not order:
+            order = "timestamp DESC" # Manejando el caso de que no se mande order
+            # Y estableciendo un orden por defecto
 
+        # Order terminaria siendo "timestamp DESC" o "valor ASC"
         cursor = self.conn.execute(
-            f"SELECT timestamp, valor FROM sensor_data WHERE timestamp <= ? ORDER BY timestamp {order} LIMIT 100",
+            f"SELECT timestamp, valor FROM sensor_data WHERE timestamp <= ? ORDER BY {order} LIMIT 100",
             (datetime.datetime.strptime(date, "%Y-%m-%d"),)
         )
 
         return cursor.fetchall()
 
-    def filter_by_value(self, value: int, ascendant: bool) -> list[tuple[str, int]]:
-        order = "ASC" if ascendant else "DESC"
+    def filter_by_value(self, value: int, order: str|None) -> list[tuple[str, int]]:
+        if not order:
+            order = "timestamp DESC" # Manejando el caso de que no se mande order
+            # Y estableciendo un orden por defecto
 
         cursor = self.conn.execute(
-            f"SELECT timestamp, valor FROM sensor_data WHERE valor <= ? ORDER BY timestamp {order} LIMIT 100", 
+            f"SELECT timestamp, valor FROM sensor_data WHERE valor <= ? ORDER BY {order} LIMIT 100", 
             (value,)
         )
 
         return cursor.fetchall()
     
-    def filter_by_data_and_value(self, date: str, value: int, ascendant: bool):
-        order = "ASC" if ascendant else "DESC"
+    def filter_by_data_and_value(self, date: str, value: int, order: str|None):
+        if not order:
+            order = "timestamp DESC" # Manejando el caso de que no se mande order
+            # Y estableciendo un orden por defecto
 
         cursor = self.conn.execute(
-            f"SELECT timestamp, valor FROM sensor_data WHERE timestamp <= ? AND valor <= ? ORDER BY timestamp {order} LIMIT 100",
+            f"SELECT timestamp, valor FROM sensor_data WHERE timestamp <= ? AND valor <= ? ORDER BY {order} LIMIT 100",
             (date, value,)
         )
 

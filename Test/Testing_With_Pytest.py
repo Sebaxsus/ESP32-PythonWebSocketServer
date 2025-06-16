@@ -91,16 +91,16 @@ class TestClass:
         Conectandose al Servidor con el Path (Ruta) `/dashboard` y el Parametro de Ruta (QueryParam) `date`
 
         **SENDS:**
-            `Connection with path "/dashboard?date=YYYY-MM-DD"`
+            `Connection with path "/dashboard?date=YYYY-MM-DD&order=timestamp%20DESC"`
 
         **EXPECTS:**
             `(Objet with attribute "event") with a value "historico"`
             `(Object with attribute "data") with a data Type (list)`
         """
-        uri = "ws://127.0.0.1:5000/dashboard?date=2025-03-12"
+        uri = "ws://127.0.0.1:5000/dashboard?date=2025-03-12&order=timestamp%20DESC"
 
         async with websockets.connect(uri, subprotocols=["None"]) as websocket:
-            test_logger.info(f"Test Endpoint + QueryParam: '/dashboard?date=2025-03-12'")
+            test_logger.info(f"Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'")
 
             # Esperando la respuesta del Servidor
             res = await websocket.recv()
@@ -119,16 +119,16 @@ class TestClass:
         Conectandose al Servidor con el Path (Ruta) `/dashboard` y el Parametro de Ruta (QueryParam) `value`
 
         **SENDS:**
-            `Connection with path "/dashboard?value=Number"`
+            `Connection with path "/dashboard?value=Number&order=valor%20ASC"`
 
         **EXPECTS:**
             `(Objet with attribute "event") with a value "historico"`
             `(Object with attribute "data") with a data Type (list)`
         """
-        uri = "ws://127.0.0.1:5000/dashboard?value=450"
+        uri = "ws://127.0.0.1:5000/dashboard?value=450&order=valor%20ASC"
 
         async with websockets.connect(uri, subprotocols=["None"]) as websocket:
-            test_logger.info(f"Test Endpoint + QueryParam: '/dashboard?value=450'")
+            test_logger.info(f"Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'")
 
             # Esperando la respuesta del servidor
             res = await websocket.recv()

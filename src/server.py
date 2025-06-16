@@ -19,9 +19,20 @@ connected_clients = set()
 data = []
 
 def get_query_data(QueryObject: dict) -> list[tuple[str|None, str|None] | tuple[None, None]]:
+    """
+    Como el orden va a ser complicado mi acercamiento a la solucion es 
+    Guardar en valor un `STRING` concatenado que lo separe un `|` y que contenga
+    el valor en el cual se basará el ordenamiento es decir `timestamp ASC` Ó `valor DESC`
+    """
+    # Manejando el caso en el que no se mande el Parametro de Ruta `order`
+    if QueryObject.get("order") == None:
+        return (None, None)
+        # Todavia no manejo errores, Esto seria un Error, Pero Tambien seria el caso en el que no se usen fitlros
+        # 😡
     QueryData = []
     for key in QueryObject.keys():
-        QueryData.append( ( key, QueryObject.get(key)[0] ) )
+        if key in ["date", "value"]:
+            QueryData.append( ( key, f"{QueryObject.get(key)[0]}|{QueryObject.get("order")[0]}" ) )
     # Como todavia no esta implementado el filtro por Fecha y Valor entonces me salto esto
     # Y solo utilizo la unica tupla que se recive
     return QueryData[0] if len(QueryData) > 0 else (None, None)
@@ -34,13 +45,18 @@ def get_client_by_ip(ip, origin):
     return None
 
 def get_data_from_db(db_path: pathlib.Path, type: str|None, value: str|None) -> list[dict["timestap": str,"valor": str]]:
+    if value:
+        desestructurando_la_Query = value.split("|") # Separo el String "2025-04-12|timestamp ASC"
+    else:
+        desestructurando_la_Query = [None, None]
+    logger.debug(f"Query desestructurada: {desestructurando_la_Query}")
     with Data_Base(logger, db_path) as db:
         if type == "date" and value:
-            return [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_date(value, False)]
+            return [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_date(desestructurando_la_Query[0], desestructurando_la_Query[1])]
         elif type == "value" and value:
-            return [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_value(value, False)]
+            return [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_value(desestructurando_la_Query[0], desestructurando_la_Query[1])]
         else:
-            return [{"timestamp": row[0], "valor": row[1]} for row in db.select_data()]
+            return [{"timestamp": row[0], "valor": row[1]} for row in db.select_data(desestructurando_la_Query[1])]
 
 async def handle_client(websocket: websockets.ServerConnection):
     path = websocket.request.path
