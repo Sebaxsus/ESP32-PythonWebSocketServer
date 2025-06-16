@@ -13,6 +13,19 @@ Proyecto para conectar el ESP32 WROOM por medio de la red local usando un servid
 
 ## Observaciones.
 
+> [!IMPORTANT]
+> **¿Que es el Archivo `__init__.py` en **Python** y porque es importante?**
+>
+> El archivo `__init__.py` **se utiliza para marcar un directorio como un paquete (Modulo/Dependencia).** Al importar un paquete el **codigo dentro de `__init__.py` se ejecuta para inicializarlo**, Puede contener código para definir funciones, asignar variables, o incluso dejarlo vacio, Su prencencia indica a Python que ese directorio debe ser tratado como un paquete, **Permitiendo la importación de sus módulos y subpaquetes.**
+>
+> **¿Que puedo poner dentro de `__init__.py` que me sea util dentro del paquete?**
+>
+> Es muy común que al usar un modulo se usen objetos de otros modulo o paquetes, Entonces podriamos importar ese Objeto dentro de `__init__.py` e importarlo usando `from models.sensor_data import SensorData` lo que evitaria el hacer `from Domain.models.sensor_data import SensorData`
+>
+> Otro caso de uso común es el uso de `__all__` en donde se almacena la **lista de módulos que serán importados al utilizar `import *`**
+>
+> -- [Mas info](https://bitybyte.github.io/Organzando-codigo-Python/) | [Mas info](https://www.google.com/url?sa=i&url=https%3A%2F%2Fbetterstack.com%2Fcommunity%2Fquestions%2Fwhat-is-init-py-for%2F&psig=AOvVaw1bYHrY6v3HHhTOo85c9drQ&ust=1750143179304000&source=images&cd=vfe&opi=89978449&ved=0CAYQrpoMahcKEwignMnFrfWNAxUAAAAAHQAAAAAQBA)
+
 > [!NOTE]
 >
 > Probando la duración de bateria y consumo del ESP32 teniendo:
@@ -159,8 +172,7 @@ pytest .\Test\Testing_With_Pytest.py -s
 
 ---
 
-Que es conftest.py y porque Pytest entiende este archivo por si solo
-y por ende no es necesario importarlo en el Test:
+## Que es conftest.py y porque Pytest entiende este archivo por si solo y por ende no es necesario importarlo en el Test:
 
 ### ¿Qué es `conftest.py`?
 
