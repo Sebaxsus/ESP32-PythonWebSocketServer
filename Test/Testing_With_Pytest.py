@@ -139,3 +139,85 @@ class TestClass:
 
             assert data["event"] == "historico"
             assert isinstance(data["data"], list)
+
+    @pytest.mark.asyncio
+    async def test_five(self, start_test_server, test_logger):
+        """
+        Este test se encarga de probrar los filtros dentro de una sola conexion
+        al WebSocket por ende, Se conectara y luego enviara mensaje con distintos cuerpos
+        para manejar los filtros y Verificar su comportamiento.
+        """
+        uri = "ws://127.0.0.1:5000/dashboard"
+
+        async with websockets.connect(uri, subprotocols=["None"]) as websocket:
+            test_logger.info("Test de manejo de Filtros por JSON")
+
+            mensaje1 = {
+                "event": "historico",
+                "order": {
+                    "by": "timestamp",
+                    "direction": "ASC"
+                }
+            }
+
+            await websocket.send(json.dumps(mensaje1))
+
+            test_logger.info(f"Test 1 Enviado: {mensaje1}")
+
+            # Esperando respuesta
+            res1 = await websocket.recv()
+
+            test_logger.info(f"Respuesta del Server Mensaje 1: {res1}")
+
+            data = json.loads(res1)
+
+            assert data["event"] == "historico"
+            assert isinstance(data["data"], list)
+
+            mensaje2 = {
+                "event": "historico",
+                "filter": {
+                    "date": "2025-03-12"
+                },
+                "order": {
+                    "by": "timestamp",
+                    "direction": "DESC"
+                }
+            }
+
+            await websocket.send(json.dumps(mensaje2))
+
+            test_logger.info(f"Test 2 Enviado: {mensaje2}")
+
+            res2 = await websocket.recv()
+
+            test_logger.info(f"Respuesta del Server Mensaje 2: {res2}")
+
+            data = json.loads(res2)
+
+            assert data["event"] == "historico"
+            assert isinstance(data["data"], list)
+
+            mensaje3 = {
+                "event": "historico",
+                "filter": {
+                    "valor": "450"
+                },
+                "order": {
+                    "by": "valor",
+                    "direction": "ASC"
+                }
+            }
+
+            await websocket.send(json.dumps(mensaje3))
+
+            test_logger.info(f"Test 3 Enviado: {mensaje3}")
+
+            res3 = await websocket.recv()
+
+            test_logger.info(f"Respuesta del Server Mensaje 3: {res3}")
+
+            data = json.loads(res3)
+
+            assert data["event"] == "historico"
+            assert isinstance(data["data"], list)

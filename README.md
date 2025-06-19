@@ -41,9 +41,13 @@ Proyecto para conectar el ESP32 WROOM por medio de la red local usando un servid
 > Especificaciones de la bateria externa
 > 
 > 10000 mili Amperios hora - mAh
+>
 > Power: 37 Watts hora - Wh
+>
 > Input: 5 Voltios / 2 Amperios - 5V/2A
+>
 > OutPut: 5 Voltios / 2 Amperios - 5/2A
+>
 > Letras Chinas: 6800 mili Amperios hora - mAh
 
 
