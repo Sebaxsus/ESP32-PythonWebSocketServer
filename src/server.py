@@ -134,7 +134,27 @@ async def handle_client(websocket: websockets.ServerConnection):
                             "event": "sensor_data",
                             "data": json.dumps({"timestamp": local_timestamp, "valor": valor})
                         }))
-
+                elif data.get("event") == "historico":
+                    filter_data = data.get["filter"]
+                    order = data.get("order")
+                    # Esta condición no tiene sentido ya que dentro de la funcion `get_data_from_db` ya manejo el caso de que los dos sean None o que Solo alguno de los dos sea None
+                    if not filter_data and not order:
+                        # Si llega aqui significa que no se especifico un orden o filtrar por algo en especifico
+                        # Por ende repondo como si fuera una query default (Todos los datos filtrando por los 100 mas recientes usando de base el timestamp)
+                        dbData = get_data_from_db(db_path, None, None)
+                        await websocket.send(json.dumps({
+                            "event": "historico",
+                            "data": dbData
+                        }))
+                    else:
+                        # Debo parsear la entrada a un string como esepra la funcion
+                        # en filter_data debe almacenar un Objeto (Dict) el cual su llave es el tipo de columna y el valor el filtro
+                        # en Order viene un Objeto (Dict) con dos atributos (order, by) en donde order sera (ASC o DESC) y BY la Columna (Column valor|timestamp)
+                        dbData = get_data_from_db(db_path, None, None)
+                        await websocket.send(json.dumps({
+                            "event": "historico",
+                            "data": dbData
+                        }))
                 else:
                     await websocket.send(json.dumps({"status": "error", "mensaje": "Evento desconocido"}))
 
