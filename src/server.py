@@ -135,7 +135,7 @@ async def handle_client(websocket: websockets.ServerConnection):
                             "data": json.dumps({"timestamp": local_timestamp, "valor": valor})
                         }))
                 elif data.get("event") == "historico":
-                    filter_data = data.get["filter"]
+                    filter_data = dict(data.get["filter"])
                     order = data.get("order")
                     # Esta condición no tiene sentido ya que dentro de la funcion `get_data_from_db` ya manejo el caso de que los dos sean None o que Solo alguno de los dos sea None
                     if not filter_data and not order:
@@ -150,7 +150,25 @@ async def handle_client(websocket: websockets.ServerConnection):
                         # Debo parsear la entrada a un string como esepra la funcion
                         # en filter_data debe almacenar un Objeto (Dict) el cual su llave es el tipo de columna y el valor el filtro
                         # en Order viene un Objeto (Dict) con dos atributos (order, by) en donde order sera (ASC o DESC) y BY la Columna (Column valor|timestamp)
-                        dbData = get_data_from_db(db_path, None, None)
+                        
+                        # Validando que el Objeto order venga bien estructurado
+                        orderString = None
+                        filter_Type = None
+                        if order.get("by") and order.get("direction"):
+                            orderString = f"{order.get("by")} {order.get("direction")}"
+                        # else:
+                        #     orderString = None
+                        
+                        # Toca cambiar como se comporta la funcion get_data_from_db ya que debe tener otro tipo
+                        # Para poder manejar cuando se usa un Filtro especifico
+                        filter_data[0][0] # Item 0 AKA Objeto 1 (Clave, Valor), Index [0] AKA Calve
+                        filter_data[0][1] # Item 0 AKA Objeto 1 (Clave, valor), Index [1] AKA Valor
+                        orderString = f"WHERE {filter_data[0][0]} <= {filter_data[0][1]} ORDER BY {orderString}"
+                        if filter_data[0][0] == "timestamp":
+                            filter_Type = "date"
+                        else:
+                            filter_Type = "value"
+                        dbData = get_data_from_db(db_path, filter_Type, orderString)
                         await websocket.send(json.dumps({
                             "event": "historico",
                             "data": dbData
