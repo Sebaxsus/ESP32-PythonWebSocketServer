@@ -8304,3 +8304,309 @@ sqlite3.OperationalError: no such table: sensor_data
 06-16 03:11 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
 06-16 03:11 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
 06-16 03:11 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:22 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:24 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:28 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:34 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:35 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:38 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:39 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:42 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:43 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:45 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 10:47 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"valor": "450"}, "order": {"by": "valor", "direction": "ASC"}}
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"valor": "450"}, "order": {"by": "valor", "direction": "ASC"}}
+06-22 10:53 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-06-22"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"valor": "450"}, "order": {"by": "valor", "direction": "ASC"}}
+06-22 11:01 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-06-22"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"valor": "450"}, "order": {"by": "valor", "direction": "ASC"}}
+06-22 11:12 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-06-22"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"valor": "450"}, "order": {"by": "valor", "direction": "ASC"}}
+06-22 11:17 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-06-22"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"valor": "450"}, "order": {"by": "valor", "direction": "ASC"}}
+06-22 11:20 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-06-22"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"valor": "450"}, "order": {"by": "valor", "direction": "ASC"}}
+06-22 11:21 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-06-22"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"valor": "450"}, "order": {"by": "valor", "direction": "ASC"}}
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-06-22"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:26 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"valor": "450"}, "order": {"by": "valor", "direction": "ASC"}}
+06-22 11:27 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-06-22"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 🟢 Iniciando servidor WebSocket en ws://127.0.0.1:5000
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: / clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "sensor_data", "data": {"valor": 300}}
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?date=2025-03-12&order=timestamp%20DESC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('date', '2025-03-12|timestamp DESC')
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard?value=450&order=valor%20ASC clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: ('value', '450|valor ASC')
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"valor": "450"}, "order": {"by": "valor", "direction": "ASC"}}
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 🟢 Cliente conectado path: /dashboard clint_Ip: 127.0.0.1 Subprotocolo aceptado: None
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: QueryParams Parseado: (None, None)
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "order": {"by": "timestamp", "direction": "ASC"}}
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-03-12"}, "order": {"by": "timestamp", "direction": "DESC"}}
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"valor": "450"}, "order": {"by": "valor", "direction": "ASC"}}
+06-22 11:32 PM - Logger - Type: [INFO] - Msg: 📩 Mensaje recibido: {"event": "historico", "filter": {"date": "2025-06-22"}, "order": {"by": "timestamp", "direction": "DESC"}}

@@ -49,12 +49,16 @@ def get_data_from_db(db_path: pathlib.Path, type: str|None, value: str|None) -> 
         desestructurando_la_Query = value.split("|") # Separo el String "2025-04-12|timestamp ASC"
     else:
         desestructurando_la_Query = [None, None]
-    logger.debug(f"Query desestructurada: {desestructurando_la_Query}")
+    logger.debug(f"Query desestructurada: {desestructurando_la_Query}, type: {type}")
     with Data_Base(logger, db_path) as db:
         if type == "date" and value:
-            return [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_date(desestructurando_la_Query[0], desestructurando_la_Query[1])]
+            temp = [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_date(desestructurando_la_Query[0], desestructurando_la_Query[1])]
+            logger.debug(f"Respuesta dentro de Func {temp}")
+            return temp
         elif type == "value" and value:
-            return [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_value(desestructurando_la_Query[0], desestructurando_la_Query[1])]
+            temp = [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_value(desestructurando_la_Query[0], desestructurando_la_Query[1])]
+            logger.debug(f"Respuesta dentro de Func {temp}")
+            return temp
         else:
             return [{"timestamp": row[0], "valor": row[1]} for row in db.select_data(desestructurando_la_Query[1])]
 
@@ -135,8 +139,10 @@ async def handle_client(websocket: websockets.ServerConnection):
                             "data": json.dumps({"timestamp": local_timestamp, "valor": valor})
                         }))
                 elif data.get("event") == "historico":
-                    filter_data = dict(data.get["filter"])
+                    dbData = None
+                    filter_data = data.get("filter")
                     order = data.get("order")
+                    logger.debug(f"Datos dentro de la peticion {filter_data}, {order}, {data}")
                     # Esta condición no tiene sentido ya que dentro de la funcion `get_data_from_db` ya manejo el caso de que los dos sean None o que Solo alguno de los dos sea None
                     if not filter_data and not order:
                         # Si llega aqui significa que no se especifico un orden o filtrar por algo en especifico
@@ -161,14 +167,23 @@ async def handle_client(websocket: websockets.ServerConnection):
                         
                         # Toca cambiar como se comporta la funcion get_data_from_db ya que debe tener otro tipo
                         # Para poder manejar cuando se usa un Filtro especifico
-                        filter_data[0][0] # Item 0 AKA Objeto 1 (Clave, Valor), Index [0] AKA Calve
-                        filter_data[0][1] # Item 0 AKA Objeto 1 (Clave, valor), Index [1] AKA Valor
-                        orderString = f"WHERE {filter_data[0][0]} <= {filter_data[0][1]} ORDER BY {orderString}"
-                        if filter_data[0][0] == "timestamp":
-                            filter_Type = "date"
+                        # filter_data[0][0] # Item 0 AKA Objeto 1 (Clave, Valor), Index [0] AKA Calve
+                        # filter_data[0][1] # Item 0 AKA Objeto 1 (Clave, valor), Index [1] AKA Valor
+                        # orderString = f"WHERE {filter_data[0][0]} <= {filter_data[0][1]} ORDER BY {orderString}"
+                        # Re-usando la logica anterior filter_value|column direction
+                        if filter_data:
+                            for key,value in  filter_data.items():
+                                logger.debug(f"Objeto filter_data: {key},{value}")
+                                orderString = f"{value}|{orderString}"
+                                if key == "date":
+                                    filter_Type = "date"
+                                else:
+                                    filter_Type = "value"
                         else:
-                            filter_Type = "value"
+                            orderString = f"{datetime.datetime.now().strftime("%Y-%m-%d")}|{orderString}"
+                            filter_Type = "date"
                         dbData = get_data_from_db(db_path, filter_Type, orderString)
+                        logger.debug(f"Respuesta de la BD: {dbData}")
                         await websocket.send(json.dumps({
                             "event": "historico",
                             "data": dbData

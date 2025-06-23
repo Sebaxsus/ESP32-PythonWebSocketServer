@@ -446,3 +446,520 @@
 06-16 03:11 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
 06-16 03:11 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
 06-16 03:11 PM - src.Logger - Type: [INFO] - Msg: ['4 passed'] in 0:00:05.119162 s
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:22:31", "valor": 300}]}
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:22:31", "valor": 300}]}
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:22:31", "valor": 300}]}
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:22 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 1
+06-22 10:22 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:22 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '4 passed'] in 0:00:05.539378 s
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:24:36", "valor": 300}]}
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:24:36", "valor": 300}]}
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:24:36", "valor": 300}]}
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:24 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 1
+06-22 10:24 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:24 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '4 passed'] in 0:00:05.663409 s
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:26:30", "valor": 300}]}
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:26:30", "valor": 300}]}
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:26:30", "valor": 300}]}
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:26 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 1
+06-22 10:26 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:26 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '4 passed'] in 0:00:05.422861 s
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:28:58", "valor": 300}]}
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:28:58", "valor": 300}]}
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:28:58", "valor": 300}]}
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:28 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 1
+06-22 10:28 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:28 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '4 passed'] in 0:00:05.707803 s
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:34:33", "valor": 300}]}
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:34:33", "valor": 300}]}
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:34:33", "valor": 300}]}
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:34 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 1
+06-22 10:34 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:34 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '4 passed'] in 0:00:05.655491 s
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:35:59", "valor": 300}]}
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:35:59", "valor": 300}]}
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:35:59", "valor": 300}]}
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:35 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 1
+06-22 10:35 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:35 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '4 passed'] in 0:00:05.428061 s
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:38:33", "valor": 300}]}
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:38:33", "valor": 300}]}
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:38:33", "valor": 300}]}
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:38 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 1
+06-22 10:38 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:38 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '4 passed'] in 0:00:05.641042 s
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:39:35", "valor": 300}]}
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:39:35", "valor": 300}]}
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:39:35", "valor": 300}]}
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:39 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 1
+06-22 10:39 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:39 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '4 passed'] in 0:00:05.417117 s
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:42:32", "valor": 300}]}
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:42:32", "valor": 300}]}
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:42:32", "valor": 300}]}
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:42 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 1
+06-22 10:42 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:42 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '4 passed'] in 0:00:05.424162 s
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:43:32", "valor": 300}]}
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:43:32", "valor": 300}]}
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:43:32", "valor": 300}]}
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:43 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 1
+06-22 10:43 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:43 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '4 passed'] in 0:00:05.417722 s
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:45:54", "valor": 300}]}
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:45:54", "valor": 300}]}
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:45:54", "valor": 300}]}
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 4
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:45 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 1
+06-22 10:45 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:45 PM - src.Logger - Type: [INFO] - Msg: ['1 failed', '4 passed'] in 0:00:05.639856 s
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:47:30", "valor": 300}]}
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:47:30", "valor": 300}]}
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:47:30", "valor": 300}]}
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 3: {"event": "historico", "data": []}
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 5
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:47 PM - src.Logger - Type: [INFO] - Msg: ['5 passed'] in 0:00:05.238849 s
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:53:59", "valor": 300}]}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:53:59", "valor": 300}]}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:53:59", "valor": 300}]}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 3: {"event": "historico", "data": []}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Test 4 Enviado: {'event': 'historico', 'filter': {'date': '2025-06-22'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 4: {"event": "historico", "data": [{"timestamp": "2025-06-22 22:53:59", "valor": 300}]}
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 5
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 10:53 PM - src.Logger - Type: [INFO] - Msg: ['5 passed'] in 0:00:05.241207 s
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:01:30", "valor": 300}]}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:01:30", "valor": 300}]}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:01:30", "valor": 300}]}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 3: {"event": "historico", "data": []}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Test 4 Enviado: {'event': 'historico', 'filter': {'date': '2025-06-22'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 4: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:01:30", "valor": 300}]}
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 5
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 11:01 PM - src.Logger - Type: [INFO] - Msg: ['5 passed'] in 0:00:05.633037 s
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:12:13", "valor": 300}]}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:12:13", "valor": 300}]}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 3: {"event": "historico", "data": []}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Test 4 Enviado: {'event': 'historico', 'filter': {'date': '2025-06-22'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 4: {"event": "historico", "data": []}
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 5
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 11:12 PM - src.Logger - Type: [INFO] - Msg: ['5 passed'] in 0:00:05.237421 s
+06-22 11:15 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:16 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 11:16 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 0
+06-22 11:16 PM - src.Logger - Type: [WARNING] - Msg: ❌ Tests fallidos: 4
+06-22 11:16 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 11:16 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 11:16 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 11:16 PM - src.Logger - Type: [WARNING] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 11:16 PM - src.Logger - Type: [INFO] - Msg: ['4 failed'] in 0:00:16.202517 s
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:17:29", "valor": 300}]}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:17:29", "valor": 300}]}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 3: {"event": "historico", "data": []}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Test 4 Enviado: {'event': 'historico', 'filter': {'date': '2025-06-22'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 4: {"event": "historico", "data": []}
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 5
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 11:17 PM - src.Logger - Type: [INFO] - Msg: ['5 passed'] in 0:00:05.247798 s
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:20:31", "valor": 300}]}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:20:31", "valor": 300}]}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 3: {"event": "historico", "data": []}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Test 4 Enviado: {'event': 'historico', 'filter': {'date': '2025-06-22'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 4: {"event": "historico", "data": []}
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 5
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 11:20 PM - src.Logger - Type: [INFO] - Msg: ['5 passed'] in 0:00:05.250151 s
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:21:49", "valor": 300}]}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:21:49", "valor": 300}]}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:21:49", "valor": 300}]}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 3: {"event": "historico", "data": []}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Test 4 Enviado: {'event': 'historico', 'filter': {'date': '2025-06-22'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 4: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:21:49", "valor": 300}]}
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 5
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 11:21 PM - src.Logger - Type: [INFO] - Msg: ['5 passed'] in 0:00:05.129466 s
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:26:29", "valor": 300}]}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:26:29", "valor": 300}]}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:26:29", "valor": 300}]}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 3: {"event": "historico", "data": []}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Test 4 Enviado: {'event': 'historico', 'filter': {'date': '2025-06-22'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 4: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:26:29", "valor": 300}]}
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 5
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: ['5 passed'] in 0:00:05.127652 s
+06-22 11:26 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:27:01", "valor": 300}]}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:27:01", "valor": 300}]}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:27:01", "valor": 300}]}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 3: {"event": "historico", "data": []}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Test 4 Enviado: {'event': 'historico', 'filter': {'date': '2025-06-22'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 4: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:27:01", "valor": 300}]}
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 5
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 11:27 PM - src.Logger - Type: [INFO] - Msg: ['5 passed'] in 0:00:05.125560 s
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Se inicializo el Logger!
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Test Enviado: {'event': 'sensor_data', 'data': {'valor': 300}}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"status": "ok", "mensaje": "Dato recibido"}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint: '/dashboard'
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:32:11", "valor": 300}]}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?date=2025-03-12&order=timestamp%20DESC'
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": []}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Test Endpoint + QueryParam: '/dashboard?value=450&order=valor%20ASC'
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:32:11", "valor": 300}]}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Test 2 Valor Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 3: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:32:11", "valor": 300}]}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Test de manejo de Filtros por JSON
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Test 1 Enviado: {'event': 'historico', 'order': {'by': 'timestamp', 'direction': 'ASC'}}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 1: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:32:11", "valor": 300}]}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Test 2 Enviado: {'event': 'historico', 'filter': {'date': '2025-03-12'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 2: {"event": "historico", "data": []}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Test 3 Enviado: {'event': 'historico', 'filter': {'valor': '450'}, 'order': {'by': 'valor', 'direction': 'ASC'}}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 3: {"event": "historico", "data": []}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Test 4 Enviado: {'event': 'historico', 'filter': {'date': '2025-06-22'}, 'order': {'by': 'timestamp', 'direction': 'DESC'}}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: Respuesta del Server Mensaje 4: {"event": "historico", "data": [{"timestamp": "2025-06-22 23:32:11", "valor": 300}]}
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: 📋 Resumen detallado del test:
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: ✅ Tests pasados: 5
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_one
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_two
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_three
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_four
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg:   - Test/Testing_With_Pytest.py::TestClass::test_five
+06-22 11:32 PM - src.Logger - Type: [INFO] - Msg: ['5 passed'] in 0:00:05.140367 s

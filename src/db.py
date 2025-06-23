@@ -90,13 +90,26 @@ class Data_Base:
         if not order:
             order = "timestamp DESC" # Manejando el caso de que no se mande order
             # Y estableciendo un orden por defecto
-
+        
         cursor = self.conn.execute(
             f"SELECT timestamp, valor FROM sensor_data WHERE valor <= ? ORDER BY {order} LIMIT 100", 
             (value,)
         )
+        # En caso de pruebas para logger toca guardar la respuesta de
+        # la BD en Memoria (Variable), Para poder verla tanto en el logger
+        # Como en el cliente, Por alguna razon si uso cursos.fetchall()
+        # Accede a la respuesta de la BD y elimina su valor/Datos??? Es muy raro
+        # Y en el server las siguientes llamadas a BD seran corruptas/Vacias
+        # Es decir si accedo dos veces a cursor.fetchall() dentro de una misma
+        # LLamada, las siguientes llamadas Estaran vacias???, Es muy RARO
+        # Es como si dejara un promesa sin resolver y apenas pueda la resuelve, Por ende
+        # La siguiente llamada ya estara resuelta y se volvera a dejar Pendiente
+        # Como Digo muy raro.
 
-        return cursor.fetchall()
+        data = cursor.fetchall()
+        self.logger.debug(f"Post Peticion a BD {value}, {order}, \t{data}")
+        return data
+        # return cursor.fetchall()
     
     def filter_by_data_and_value(self, date: str, value: int, order: str|None):
         if not order:

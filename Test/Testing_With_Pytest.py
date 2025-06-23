@@ -140,6 +140,30 @@ class TestClass:
             assert data["event"] == "historico"
             assert isinstance(data["data"], list)
 
+            mensaje3 = {
+                "event": "historico",
+                "filter": {
+                    "valor": "450"
+                },
+                "order": {
+                    "by": "valor",
+                    "direction": "ASC"
+                }
+            }
+
+            await websocket.send(json.dumps(mensaje3))
+
+            test_logger.info(f"Test 2 Valor Enviado: {mensaje3}")
+
+            res3 = await websocket.recv()
+
+            test_logger.info(f"Respuesta del Server Mensaje 2 Valor: {res3}")
+
+            data = json.loads(res3)
+
+            assert data["event"] == "historico"
+            assert isinstance(data["data"], list)
+
     @pytest.mark.asyncio
     async def test_five(self, start_test_server, test_logger):
         """
@@ -218,6 +242,30 @@ class TestClass:
             test_logger.info(f"Respuesta del Server Mensaje 3: {res3}")
 
             data = json.loads(res3)
+
+            assert data["event"] == "historico"
+            assert isinstance(data["data"], list)
+
+            mensaje4 = {
+                "event": "historico",
+                "filter": {
+                    "date": "2025-06-22"
+                },
+                "order": {
+                    "by": "timestamp",
+                    "direction": "DESC"
+                }
+            }
+
+            await websocket.send(json.dumps(mensaje4))
+
+            test_logger.info(f"Test 4 Enviado: {mensaje4}")
+
+            res4 = await websocket.recv()
+
+            test_logger.info(f"Respuesta del Server Mensaje 4: {res4}")
+
+            data = json.loads(res4)
 
             assert data["event"] == "historico"
             assert isinstance(data["data"], list)
