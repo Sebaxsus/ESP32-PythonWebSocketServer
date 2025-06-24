@@ -53,11 +53,11 @@ def get_data_from_db(db_path: pathlib.Path, type: str|None, value: str|None) -> 
     with Data_Base(logger, db_path) as db:
         if type == "date" and value:
             temp = [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_date(desestructurando_la_Query[0], desestructurando_la_Query[1])]
-            logger.debug(f"Respuesta dentro de Func {temp}")
+            # logger.debug(f"Respuesta dentro de Func {temp}")
             return temp
         elif type == "value" and value:
             temp = [{"timestamp": row[0], "valor": row[1]} for row in db.filter_by_value(desestructurando_la_Query[0], desestructurando_la_Query[1])]
-            logger.debug(f"Respuesta dentro de Func {temp}")
+            # logger.debug(f"Respuesta dentro de Func {temp}")
             return temp
         else:
             return [{"timestamp": row[0], "valor": row[1]} for row in db.select_data(desestructurando_la_Query[1])]
@@ -183,7 +183,7 @@ async def handle_client(websocket: websockets.ServerConnection):
                             orderString = f"{datetime.datetime.now().strftime("%Y-%m-%d")}|{orderString}"
                             filter_Type = "date"
                         dbData = get_data_from_db(db_path, filter_Type, orderString)
-                        logger.debug(f"Respuesta de la BD: {dbData}")
+                        # logger.debug(f"Respuesta de la BD: {dbData}")
                         await websocket.send(json.dumps({
                             "event": "historico",
                             "data": dbData
